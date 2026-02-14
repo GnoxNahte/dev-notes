@@ -1,9 +1,12 @@
 ---
 publish: true
-aliases: Differentiation Basics
+aliases:
+  - Differentiation Basics
 created: 2026-01-23T14:04:00.643+08:00
 modified: 2026-02-12T16:55:00.165+08:00
+published: 2026-02-12T16:55:00.165+08:00
 cssclasses: ""
+math-level: 3 - Uni Yr 1
 ---
 
  

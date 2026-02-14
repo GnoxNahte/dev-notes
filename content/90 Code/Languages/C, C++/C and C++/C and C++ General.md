@@ -2,7 +2,10 @@
 publish: true
 created: 2026-01-04T15:30:57.730+08:00
 modified: 2026-01-05T22:00:13.301+08:00
+published: 2026-01-05T22:00:13.301+08:00
 cssclasses: ""
+links/docs: https://en.cppreference.com/index.html
+links/docs/alt: https://manual.cs50.io/
 ---
 
 

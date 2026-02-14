@@ -1,8 +1,11 @@
 ---
 publish: true
-aliases: AABB aabb
+aliases:
+  - AABB
+  - aabb
 created: 2026-02-05T15:29:18.413+08:00
 modified: 2026-02-05T15:32:16.987+08:00
+published: 2026-02-05T15:32:16.987+08:00
 cssclasses: ""
 ---
 
