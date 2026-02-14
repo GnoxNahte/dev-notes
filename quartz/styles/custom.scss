@@ -41,3 +41,32 @@
   display: block;
   width: 100%;
 }
+
+// ===== Others =====
+.page {
+  max-width: calc(#{map.get($breakpoints, desktop)} + 400px);
+}
+
+table, tr, td, th {
+  border: 2px solid color-mix(in srgb, var(--gray) 50%, var(--light));
+}
+
+th {
+  background-color: color-mix(in srgb, var(--light) 50%, black);
+  border-width: 3px;
+}
+html[saved-theme="light"] th {
+  background-color: color-mix(in srgb, var(--light) 50%, white);
+}
+// === Obsidian Custom CSS ===
+html[saved-theme="dark"] .img-fill-transparent-bg img {
+    background-color: #fff;
+}
+
+html[saved-theme="light"] .img-fill-transparent-bg img {
+    background-color: #000;
+}
+
+html[saved-theme="dark"] .img-flip img {
+    filter: invert(1);
+}
