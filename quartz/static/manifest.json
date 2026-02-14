@@ -1,0 +1,25 @@
+{
+  "name": "My Notes",
+  "short_name": "Notes",
+  "icons": [
+    {
+      "src": "./static/icon-dark.png",
+      "type": "image/png",
+      "sizes": "200x200"
+    },
+    {
+      "src": "./static/icon-dark-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./static/icon-dark-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./",
+  "prefer_related_applications": false,
+  "display": "standalone",
+  "description": "My Notes on game development"
+}

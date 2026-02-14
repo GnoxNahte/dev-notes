@@ -35,6 +35,7 @@ export default (() => {
       (e) => e.name === CustomOgImagesEmitterName,
     )
     const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.png`
+    const manifestPath = `https://${cfg.baseUrl}/static/manifest.json`
 
     return (
       <head>
@@ -85,6 +86,8 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+        
+        <link rel="manifest" href={manifestPath} />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
