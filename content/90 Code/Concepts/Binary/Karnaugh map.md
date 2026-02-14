@@ -1,9 +1,13 @@
 ---
 publish: true
 aliases:
-  - K-Map
   - K map
+created: 2026-01-04T15:30:57.635+08:00
+modified: 2026-02-14T12:12:27.287+08:00
+published: 2026-02-14T12:12:27.287+08:00
+cssclasses: ""
 ---
+
 
 ## Info
 Quick method to simplify 3 [[90 Code/Concepts/Binary/Boolean algebra]] variables
