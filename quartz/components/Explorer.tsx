@@ -3,6 +3,8 @@ import style from "./styles/explorer.scss"
 
 // @ts-ignore
 import script from "./scripts/explorer.inline"
+// @ts-ignore
+import hoverBoxScript from "./scripts/hoverbox.inline"
 import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
 import { FileTrieNode } from "../util/fileTrie"
@@ -120,6 +122,7 @@ export default ((userOpts?: Partial<Options>) => {
           </svg>
         </button>
         <div id={id} class="explorer-content" aria-expanded={false} role="group">
+          <div aria-hidden class="hover-box" />  
           <OverflowList class="explorer-ul" />
         </div>
         <template id="template-file">
@@ -160,6 +163,6 @@ export default ((userOpts?: Partial<Options>) => {
   }
 
   Explorer.css = style
-  Explorer.afterDOMLoaded = concatenateResources(script, overflowListAfterDOMLoaded)
+  Explorer.afterDOMLoaded = concatenateResources(script, hoverBoxScript, overflowListAfterDOMLoaded)
   return Explorer
 }) satisfies QuartzComponentConstructor

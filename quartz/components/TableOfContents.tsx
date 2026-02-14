@@ -5,6 +5,8 @@ import { classNames } from "../util/lang"
 
 // @ts-ignore
 import script from "./scripts/toc.inline"
+// @ts-ignore
+import hoverBoxScript from "./scripts/hoverbox.inline"
 import { i18n } from "../i18n"
 import OverflowListFactory from "./OverflowList"
 import { concatenateResources } from "../util/resources"
@@ -59,6 +61,7 @@ export default ((opts?: Partial<Options>) => {
           id={id}
           class={fileData.collapseToc ? "collapsed toc-content" : "toc-content"}
         >
+          <div aria-hidden class="hover-box" />  
           {fileData.toc.map((tocEntry) => (
             <li key={tocEntry.slug} class={`depth-${tocEntry.depth}`}>
               <a href={`#${tocEntry.slug}`} data-for={tocEntry.slug}>
@@ -72,7 +75,7 @@ export default ((opts?: Partial<Options>) => {
   }
 
   TableOfContents.css = modernStyle
-  TableOfContents.afterDOMLoaded = concatenateResources(script, overflowListAfterDOMLoaded)
+  TableOfContents.afterDOMLoaded = concatenateResources(script, hoverBoxScript, overflowListAfterDOMLoaded)
 
   const LegacyTableOfContents: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) => {
     if (!fileData.toc) {
