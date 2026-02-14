@@ -13,3 +13,4 @@ export { HardLineBreaks } from "./linebreaks"
 export { RoamFlavoredMarkdown } from "./roam"
 
 export { ClickableImages } from "./clickable-img-zoom"
+export { FunctionPlot } from "./function-plot"

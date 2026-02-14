@@ -85,6 +85,7 @@ const config: QuartzConfig = {
 
       // Custom transformers:
       Plugin.ClickableImages(),
+      Plugin.FunctionPlot(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
