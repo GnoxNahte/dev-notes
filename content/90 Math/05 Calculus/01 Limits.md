@@ -3,8 +3,8 @@ publish: true
 aliases:
   - L'Hopital's Rule
 created: 2026-01-22T17:16:16.061+08:00
-modified: 2026-02-13T21:02:59.904+08:00
-published: 2026-02-13T21:02:59.904+08:00
+modified: 2026-02-14T20:42:53.897+08:00
+published: 2026-02-14T20:42:53.897+08:00
 tags:
   - todo
 cssclasses: ""
@@ -109,8 +109,8 @@ $$
 &=\frac{2}{5}
 \end{align} 
 $$
-$(1)$ - Divide both numerator and denominator by the highest polynomial
-$(2)$ - Cancel any fractions that are divided by $x$. This is possible because when $x\to \infty$, $\frac{a}{\infty}$ will become a very small number (Effectively 0 as it approaches $\infty$)
+
+$(1)$ - Divide both numerator and denominator by the highest polynomial<br>$(2)$ - Cancel any fractions that are divided by $x$. This is possible because when $x\to \infty$, $\frac{a}{\infty}$ will become a very small number (Effectively 0 as it approaches $\infty$)
 
 Related - [[90 Math/05 Calculus/02 Differentiation Concepts\|Differentiation]] 
 
