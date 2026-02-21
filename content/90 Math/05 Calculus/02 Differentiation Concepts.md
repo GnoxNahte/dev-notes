@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Differentiation Basics
 created: 2026-01-23T14:04:00.643+08:00
-modified: 2026-02-21T21:28:56.184+08:00
-published: 2026-02-21T21:28:56.184+08:00
+modified: 2026-02-21T21:46:13.944+08:00
+published: 2026-02-21T21:46:13.944+08:00
 cssclasses: ""
 math-level: 3 - Uni Yr 1
 ---
@@ -129,10 +129,45 @@ Also known as *critical points*, it's where
 - which can be found where $f\,'(c)=0$ 
 - or when $f$ is not differentiable at $c$ #todo - *(unsure?)* Example: $f(x)=|x|$
 
+### Example - Quadratic
+Using the [[90 Math/05 Calculus/02 Differentiation Concepts#Quadratic]] example below,
+$$
+\begin{align}
+f(x) &= x^2-2x-4 \\
+f'(x) &= 2x-2
+\end{align}
+$$
+The turning point for $f(x)$ is at $f\,'(x)=0$
+$$
+\begin{align}
+0&=2x-2\\
+x&=1
+\end{align}
+$$
 
-
-> [!EXAMPLE]- Quadratic
-> #### Quadratic
+### Example - Cubic
+Using the [[90 Math/05 Calculus/02 Differentiation Concepts#Cubic]] example below,
+$$
+\begin{align}
+f(x) &= 2x^3+4x^2+2x+1\\
+f'(x) &= 6x^2+8x+2
+\end{align}
+$$
+The turning point for $f(x)$ is at $f\,'(x)=0$
+$$
+\begin{align}
+0&=6x^2+8x+2 \\
+0&=3x^2+4x+1 \\
+0&=(3x+1)(x+1)
+\end{align}
+$$
+So, the turning point for $f(x)$ is the roots of $f\,'(x)$ which is 
+$$
+x=-\frac{1}{3} \text{ and } x=-1
+$$
+### Example - Sin
+Using the [[90 Math/05 Calculus/02 Differentiation Concepts#sin]] example below,
+#### sin
 ```functionplot
 ---
 title: 
@@ -142,25 +177,29 @@ bounds: [-10,10,-10,10]
 disableZoom: true
 grid: true
 ---
-f(x) = x^2-2x-4
-g(x)= 2x-2
+f(x) = 5sin(x)
+g(x) = 5cos(x)
 ```
 $$
 \begin{align}
-f(x) &= x^2-2x-4 \\
-f'(x) &= 2x-2
+f(x)&=\sin{x}\\
+f\,'(x)&=\cos{x}
 \end{align}
 $$
 
-> The turning point for $f(x)$ is at $f\,(x)=0$
-> $$
-> \begin{align}
-> 0&=2x-2\\
-> x&=1
-> \end{align}
-> $$
-> 
-
+The turning point for $f(x)$ is at $f\,'(x)=0$
+$$
+\begin{align}
+\cos{x}&=0 \\
+x&=\cos^{-1}{(0)} \\
+&=\frac{\pi}{2}
+\end{align}
+$$
+Since $\cos$ is $0$ at every $\frac{\pi}{2}$ interval, the turning points are at 
+$$
+x=\frac{\pi}{2}+n\pi
+$$
+where $n$ is at any integer.
 
 ## Slope/gradient of different lines
 ### Linear and Power

@@ -473,6 +473,12 @@ cssclasses: ""
         
 - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Turning" class="tag-link">Turning</a> points\|Turning points]]
     
+    - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Example" class="tag-link">Example</a> - Quadratic\|Example - Quadratic]]
+        
+    - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Example" class="tag-link">Example</a> - Cubic\|Example - Cubic]]
+        
+    - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Example" class="tag-link">Example</a> - Sin\|Example - Sin]]
+        
 - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Slope" class="tag-link">Slope</a> gradient of different lines\|Slope/gradient of different lines]]
     
     - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Linear" class="tag-link">Linear</a> and Power\|Linear and Power]]
