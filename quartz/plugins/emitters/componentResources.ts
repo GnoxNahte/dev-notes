@@ -234,12 +234,18 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
      */
     componentResources.beforeDOMLoaded.push(`
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+      window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
     `)
     componentResources.afterDOMLoaded.push(`
       const vercelInsightsScript = document.createElement("script")
       vercelInsightsScript.src = "/_vercel/insights/script.js"
       vercelInsightsScript.defer = true
       document.head.appendChild(vercelInsightsScript)
+
+      const vercelSpeedInsightsScript = document.createElement("script")
+      vercelSpeedInsightsScript.src = "/_vercel/speed-insights/script.js"
+      vercelSpeedInsightsScript.defer = true
+      document.head.appendChild(vercelSpeedInsightsScript)
     `)
   } else if (cfg.analytics?.provider === "rybbit") {
     componentResources.afterDOMLoaded.push(`
