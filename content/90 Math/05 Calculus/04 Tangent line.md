@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-04T21:00:52.292+08:00
-modified: 2026-02-12T14:58:57.540+08:00
-published: 2026-02-12T14:58:57.540+08:00
+modified: 2026-02-21T15:49:38.949+08:00
+published: 2026-02-21T15:49:38.949+08:00
 tags:
   - todo
 cssclasses: ""
@@ -43,3 +43,5 @@ y&=f\,'(a)(x-a)+f(a)
 $$
 
 
+## See also
+- [[90 Math/05 Calculus/05 Implicit differentiation#Tangent line\|Tangent line for implicit graphs (Like circles)]]

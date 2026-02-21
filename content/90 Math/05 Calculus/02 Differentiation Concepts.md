@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Differentiation Basics
 created: 2026-01-23T14:04:00.643+08:00
-modified: 2026-02-12T16:55:00.165+08:00
-published: 2026-02-12T16:55:00.165+08:00
+modified: 2026-02-21T21:28:56.184+08:00
+published: 2026-02-21T21:28:56.184+08:00
 cssclasses: ""
 math-level: 3 - Uni Yr 1
 ---
@@ -56,6 +56,10 @@ In the graph, when the derivative, $f\,'(x)$ - red line, is...
 - = 0, no change of $f(x)$ (at that point)
 - \> 0, $f(x)$ keeps increasing
 
+> [!TIP] Can use this reasoning to test if the graph is increasing/decreasing
+> $f\,'(-2) < 0$ - So $f(x)$ is decreasing
+> $f\,'(2) > 0$ - So $f(x)$ is increasing
+
 ### Understanding the definition
 Given a linear function: $y=mx+c$, find the gradient ($m$) given any two points $(x_0, y_0), (x_1, y_1)$ 
 $$
@@ -85,7 +89,21 @@ Also see from 3b1b:
 - [Derivative paradox](https://www.3blue1brown.com/?v=derivatives#video-section) 
 - [Power rule through geometry](https://www.3blue1brown.com/?v=derivatives-power-rule#video-section) 
 
+### Higher-order derivatives
+_Higher-order derivatives_ are the result of differentiating a function repeatedly. 
+
+> [!EXAMPLE] Example - Distance, velocity, acceleration
+> Let $f(t)$ be the distance equation
+> Then,
+> - $f\,'(t)$ - Velocity (Rate of change of distance)
+> - $f\,''(t)$ - Acceleration (Rate of change of velocity)
+> - $f\,'''(t)$ - Jerk (Rate of change of acceleration)
+
 ## Notation
+### Using dy/dx
+- 1st derivative: $\frac{dy}{dx}$ or $\frac{d}{dx}[f(x)]$
+- 2nd derivative: $\frac{d^2y}{dx^2}$
+- $n^{th}$ derivative: $\frac{d^ny}{dx^n}$ 
 
 > [!NOTE] Difference between $\frac{dy}{dx}$ and $\frac{d}{dx}$
 > Given a function $f(x)=x^2$,
@@ -97,8 +115,24 @@ Also see from 3b1b:
 >   
 >   Got it from: [Reddit post](https://www.reddit.com/r/learnmath/comments/bjlyjw/whats_the_difference_between_ddx_and_dydx/)
 
-## Slope/gradient of different lines
-### Linear function
+### Using Function Primes
+- 1st derivative: $f\,'(x)$
+- 2nd derivative: $f\,''(x)$
+- 3rd derivative: $f\,'''(x)$
+- $n^{th}$ derivative: $f^{(n)}(x)$ 
+
+## Turning points
+#todo - Change to Uses/Applications of derivation?
+
+Also known as *critical points*, it's where
+- $f$ changes switches between decreasing and increasing.
+- which can be found where $f\,'(c)=0$ 
+- or when $f$ is not differentiable at $c$ #todo - *(unsure?)* Example: $f(x)=|x|$
+
+
+
+> [!EXAMPLE]- Quadratic
+> #### Quadratic
 ```functionplot
 ---
 title: 
@@ -108,11 +142,189 @@ bounds: [-10,10,-10,10]
 disableZoom: true
 grid: true
 ---
-y=3x-2
+f(x) = x^2-2x-4
+g(x)= 2x-2
+```
+$$
+\begin{align}
+f(x) &= x^2-2x-4 \\
+f'(x) &= 2x-2
+\end{align}
+$$
+
+> The turning point for $f(x)$ is at $f\,(x)=0$
+> $$
+> \begin{align}
+> 0&=2x-2\\
+> x&=1
+> \end{align}
+> $$
+> 
+
+
+## Slope/gradient of different lines
+### Linear and Power
+#### Linear
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-10,10,-10,10]
+disableZoom: true
+grid: true
+---
+f(x)=2x-5
+g(x)=2
 ```
 
 $$
-f(x) = mx + c
+\begin{align}
+f(x) &= mx + c\\
+f\,'(x)&=m
+\end{align}
+$$
+
+#### Quadratic
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-10,10,-10,10]
+disableZoom: true
+grid: true
+---
+f(x) = x^2-2x-4
+g(x)= 2x-2
+```
+$$
+\begin{align}
+f(x) &= x^2-2x-4 \\
+f'(x) &= 2x-2
+\end{align}
+$$
+
+#### Cubic
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-5,5,-5,5]
+disableZoom: true
+grid: true
+---
+f(x) = 2x^3+4x^2+2x+1
+g(x)= 6x^2+8x+2
+```
+$$
+\begin{align}
+f(x) &= 2x^3+4x^2+2x+1\\
+f'(x) &= 6x^2+8x+2
+\end{align}
+$$
+
+### Reciprocal and Exponential
+#### Reciprocal
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-5,5,-5,5]
+disableZoom: true
+grid: true
+---
+f(x) = 1/x
+g(x)= -1/(x^2)
+```
+$$
+\begin{align}
+f(x)&=\frac{1}{x} \\
+f\,'(x)&=-\frac{1}{x^2}
+\end{align}
+$$
+
+#### Exponential
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-5,5,-5,5]
+disableZoom: true
+grid: true
+---
+f(x) = 5^x
+```
+Graph can't show $\ln$
+$$
+\begin{align}
+f(x)&=5^x\\
+f\,'(x)&=\ln{5}\cdot 5^x
+\end{align}
+$$
+
+### Trigonometry
+#### sin
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-10,10,-10,10]
+disableZoom: true
+grid: true
+---
+f(x) = 5sin(x)
+g(x) = 5cos(x)
+```
+$$
+\begin{align}
+f(x)&=\sin{x}\\
+f\,'(x)&=\cos{x}
+\end{align}
+$$
+
+#### cos
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-10,10,-10,10]
+disableZoom: true
+grid: true
+---
+f(x) = 5cos(x)
+g(x) = -5sin(x)
+```
+$$
+\begin{align}
+f(x)&=\cos{x}\\
+f\,'(x)&=-\sin{x}
+\end{align}
+$$
+
+#### tan
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-10,10,-10,10]
+disableZoom: true
+grid: true
+---
+f(x) = tan(x)
+```
+Graph can't show $\sec{x}$
+$$
+\begin{align}
+f(x)&=\tan{x}\\
+f\,'(x)&=\sec^2{x}
+\end{align}
 $$
 
 ## References

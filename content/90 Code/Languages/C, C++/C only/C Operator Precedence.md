@@ -1,8 +1,13 @@
 ---
 publish: true
+created: 2026-01-04T15:30:57.763+08:00
+modified: 2026-02-20T22:42:27.801+08:00
+published: 2026-02-20T22:42:27.801+08:00
 tags:
   - todo
+cssclasses: ""
 ---
+
 Link: [C Operator Precedence](https://en.cppreference.com/w/c/language/operator_precedence.html) 
 
 <table>

@@ -1,9 +1,14 @@
 ---
 publish: true
-links/docs: https://cplusplus.com/reference/cstdio/scanf/
+created: 2026-01-04T15:30:57.785+08:00
+modified: 2026-02-20T22:43:25.757+08:00
+published: 2026-02-20T22:43:25.757+08:00
 tags:
   - todo
+cssclasses: ""
+links/docs: https://cplusplus.com/reference/cstdio/scanf/
 ---
+
 
 
 ## Declaration

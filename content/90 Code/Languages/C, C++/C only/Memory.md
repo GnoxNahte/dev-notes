@@ -1,12 +1,17 @@
 ---
 publish: true
+created: 2026-01-04T15:30:57.768+08:00
+modified: 2026-02-20T22:42:49.025+08:00
+published: 2026-02-20T22:42:49.025+08:00
+cssclasses: ""
 ---
+
 
 ## All memory are stored in groups of 4 byte
 4 byte = 4 * 8 bits = 32 bits
 
 ### Example
-Given a [[90 Code/Languages/C, C++/C only/keywords/struct]] declaration
+Given a [[struct]] declaration
 ```c
 struct Player {
 	char name[21];

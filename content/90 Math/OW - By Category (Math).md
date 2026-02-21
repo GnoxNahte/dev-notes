@@ -463,11 +463,40 @@ cssclasses: ""
         
     - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Understanding" class="tag-link">Understanding</a> the definition\|Understanding the definition]]
         
+    - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Higher" class="tag-link">Higher</a>-order derivatives\|Higher-order derivatives]]
+        
 - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Notation" class="tag-link">Notation</a>\|Notation]]
+    
+    - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Using" class="tag-link">Using</a> dy dx\|Using dy/dx]]
+        
+    - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Using" class="tag-link">Using</a> Function Primes\|Using Function Primes]]
+        
+- [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Turning" class="tag-link">Turning</a> points\|Turning points]]
     
 - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Slope" class="tag-link">Slope</a> gradient of different lines\|Slope/gradient of different lines]]
     
-    - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Linear" class="tag-link">Linear</a> function\|Linear function]]
+    - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Linear" class="tag-link">Linear</a> and Power\|Linear and Power]]
+        
+        - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Linear" class="tag-link">Linear</a>\|Linear]]
+            
+        - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Quadratic" class="tag-link">Quadratic</a>\|Quadratic]]
+            
+        - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Cubic" class="tag-link">Cubic</a>\|Cubic]]
+            
+    - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Reciprocal" class="tag-link">Reciprocal</a> and Exponential\|Reciprocal and Exponential]]
+        
+        - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Reciprocal" class="tag-link">Reciprocal</a>\|Reciprocal]]
+            
+        - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Exponential" class="tag-link">Exponential</a>\|Exponential]]
+            
+    - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/Trigonometry" class="tag-link">Trigonometry</a>\|Trigonometry]]
+        
+        - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/sin" class="tag-link">sin</a>\|sin]]
+            
+        - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/cos" class="tag-link">cos</a>\|cos]]
+            
+        - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/tan" class="tag-link">tan</a>\|tan]]
+            
 - [[90 Math/05 Calculus/02 Differentiation Concepts.md<a href="tags/References" class="tag-link">References</a>\|References]]
     
 
@@ -492,12 +521,21 @@ cssclasses: ""
     
 - [[90 Math/05 Calculus/04 Tangent line.md<a href="tags/Derivation" class="tag-link">Derivation</a>\|Derivation]]
     
+- [[90 Math/05 Calculus/04 Tangent line.md<a href="tags/See" class="tag-link">See</a> also\|See also]]
+    
 
 ### [[90 Math/05 Calculus/05 Implicit differentiation\|05 Implicit differentiation]]
 
 - [[90 Math/05 Calculus/05 Implicit differentiation.md<a href="tags/Example" class="tag-link">Example</a>\|Example]]
     
 - [[90 Math/05 Calculus/05 Implicit differentiation.md<a href="tags/Tangent" class="tag-link">Tangent</a> line\|Tangent line]]
+    
+
+### [[90 Math/05 Calculus/06 Increasing and Decreasing Test, Turning Points\|06 Increasing and Decreasing Test, Turning Points]]
+
+- [[90 Math/05 Calculus/06 Increasing and Decreasing Test, Turning Points.md<a href="tags/Increasing" class="tag-link">Increasing</a> and decreasing test\|Increasing and decreasing test]]
+    
+- [[90 Math/05 Calculus/06 Increasing and Decreasing Test, Turning Points.md<a href="tags/Turning" class="tag-link">Turning</a> Point\|Turning Point]]
     
 
 ## erences
