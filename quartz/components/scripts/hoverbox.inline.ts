@@ -9,6 +9,7 @@ function setupHoverBoxForContainer(containerSelector: string, boxSelector = '.ho
 
   const box = container.querySelector(boxSelector) as HTMLElement;
   const scrollContainer = box?.parentElement?.querySelector("ul") as HTMLElement;
+  console.log(containerSelector, "\n", scrollContainer);
 
   container.addEventListener('mouseover', (e: MouseEvent) => {
     const target = (e.target as HTMLElement).closest('li') as HTMLElement;
@@ -28,7 +29,8 @@ function setupHoverBoxForContainer(containerSelector: string, boxSelector = '.ho
 
 function setupHoverBox() {
     setupHoverBoxForContainer('.explorer-content');
-    setupHoverBoxForContainer('.toc');
+    // setupHoverBoxForContainer('.toc');
+    setupHoverBoxForContainer('.backlinks');
 }
 
 document.addEventListener("nav", setupHoverBox);

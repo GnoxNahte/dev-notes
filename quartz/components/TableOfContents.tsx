@@ -57,11 +57,11 @@ export default ((opts?: Partial<Options>) => {
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
         </button>
+        <div aria-hidden class="hover-box" />  
         <OverflowList
           id={id}
           class={fileData.collapseToc ? "collapsed toc-content" : "toc-content"}
         >
-          <div aria-hidden class="hover-box" />  
           {fileData.toc.map((tocEntry) => (
             <li key={tocEntry.slug} class={`depth-${tocEntry.depth}`}>
               <a href={`#${tocEntry.slug}`} data-for={tocEntry.slug}>

@@ -39,6 +39,11 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       folderClickBehavior: "collapse",
+      // mapFn: (node) => {
+      //   node.displayName = node.displayName.replace(/\d+ /, "")
+      //   return node
+      // },
+      // order: ["filter", "sort", "map"],
       // useSavedState: false
     }),
   ],
@@ -64,7 +69,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({ folderClickBehavior: "collapse" }),
   ],
   right: [],
 }
