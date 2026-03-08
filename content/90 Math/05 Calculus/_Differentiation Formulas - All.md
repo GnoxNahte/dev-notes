@@ -1,11 +1,6 @@
 ---
 publish: true
-created: 2026-02-08T15:56:14.540+08:00
-modified: 2026-02-09T14:37:45.648+08:00
-published: 2026-02-09T14:37:45.648+08:00
-cssclasses: ""
 ---
-
 ## Table of content
 - [[90 Math/05 Calculus/_Differentiation Formulas - All#Limits]] 
 - [[90 Math/05 Calculus/_Differentiation Formulas - All#Differentiation]] 
@@ -21,6 +16,20 @@ cssclasses: ""
 | Product             | $\lim\limits_{ x \to a }(f\cdot g)=\lim\limits_{ x \to a }f\cdot \lim\limits_{ x \to a }g$                                          |
 | Quotient            | $\lim\limits_{ x \to a }\frac{f}{g}=\frac{\lim\limits_{ x \to a }f}{\lim\limits_{ x \to a }g}$ if $\lim\limits_{ x \to a }g\neq{0}$ |
 | Power               | $\lim\limits_{ x \to a }(f^n)=(\lim\limits_{ x \to a }f)^n$ where $n >0$                                                            |
+
+
+### Common limits
+
+| Function                       |
+| ------------------------------ |
+| $\lim\limits_{ x \to 1 }e^x=1$ |
+|                                |
+|                                |
+|                                |
+|                                |
+|                                |
+|                                |
+|                                |
 
 
 ## Differentiation

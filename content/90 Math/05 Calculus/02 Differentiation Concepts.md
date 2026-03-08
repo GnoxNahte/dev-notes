@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Differentiation Basics
 created: 2026-01-23T14:04:00.643+08:00
-modified: 2026-02-21T21:46:13.944+08:00
-published: 2026-02-21T21:46:13.944+08:00
+modified: 2026-03-01T17:56:23.709+08:00
+published: 2026-03-01T17:56:23.709+08:00
 cssclasses: ""
 math-level: 3 - Uni Yr 1
 ---
@@ -297,6 +297,7 @@ grid: true
 ---
 f(x) = 5^x
 ```
+
 Graph can't show $\ln$
 $$
 \begin{align}
@@ -358,6 +359,7 @@ grid: true
 ---
 f(x) = tan(x)
 ```
+
 Graph can't show $\sec{x}$
 $$
 \begin{align}

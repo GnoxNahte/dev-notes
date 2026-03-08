@@ -40,7 +40,7 @@ cssclasses: ""
         
     - [[90 Math/00 Basics/Functions - f\(x\|Visualisation]].md<a href="tags/Visualisation" class="tag-link">Visualisation</a>)
         
-- [[90 Math/00 Basics/Functions - f\(x\|Terminology]].md<a href="tags/Terminology" class="tag-link">Terminology</a>)
+- [[90 Math/00 Basics/Functions - f\(x\|Terminology - Intervals]].md<a href="tags/Terminology" class="tag-link">Terminology</a> - Intervals)
     
     - [[90 Math/00 Basics/Functions - f\(x\|For graphs]].md<a href="tags/For" class="tag-link">For</a> graphs)
 
@@ -57,6 +57,13 @@ cssclasses: ""
     - [[90 Math/00 Basics/Notation.md<a href="tags/For" class="tag-link">For</a> graphs\|For graphs]]
         
 - [[90 Math/00 Basics/Notation.md<a href="tags/Function" class="tag-link">Function</a>\|Function]]
+    
+
+### [[90 Math/00 Basics/Shape Formulas\|Shape Formulas]]
+
+- [[90 Math/00 Basics/Shape Formulas.md<a href="tags/2D" class="tag-link">2D</a>\|2D]]
+    
+- [[90 Math/00 Basics/Shape Formulas.md<a href="tags/3D" class="tag-link">3D</a>\|3D]]
     
 
 ## Trigonometry
@@ -412,6 +419,7 @@ cssclasses: ""
     
 - [[90 Math/05 Calculus/_Differentiation Formulas - All.md<a href="tags/Limits" class="tag-link">Limits</a>\|Limits]]
     
+    - [[90 Math/05 Calculus/_Differentiation Formulas - All.md<a href="tags/Common" class="tag-link">Common</a> limits\|Common limits]]
 - [[90 Math/05 Calculus/_Differentiation Formulas - All.md<a href="tags/Differentiation" class="tag-link">Differentiation</a>\|Differentiation]]
     
 
@@ -537,11 +545,50 @@ cssclasses: ""
 - [[90 Math/05 Calculus/05 Implicit differentiation.md<a href="tags/Tangent" class="tag-link">Tangent</a> line\|Tangent line]]
     
 
-### [[90 Math/05 Calculus/06 Increasing and Decreasing Test, Turning Points\|06 Increasing and Decreasing Test, Turning Points]]
+### [[90 Math/05 Calculus/06 Newton's Law\|06 Newton's Law]]
 
-- [[90 Math/05 Calculus/06 Increasing and Decreasing Test, Turning Points.md<a href="tags/Increasing" class="tag-link">Increasing</a> and decreasing test\|Increasing and decreasing test]]
+- [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Description" class="tag-link">Description</a>\|Description]]
     
-- [[90 Math/05 Calculus/06 Increasing and Decreasing Test, Turning Points.md<a href="tags/Turning" class="tag-link">Turning</a> Point\|Turning Point]]
+- [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Steps" class="tag-link">Steps</a>\|Steps]]
+    
+    - [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Check" class="tag-link">Check</a> if there s a root - Intermediate Value Theorem IVT\|Check if there's a root - Intermediate Value Theorem (IVT)]]
+        
+        - [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Example" class="tag-link">Example</a> 1 - Roots exist\|Example 1 - Roots exist]]
+            
+        - [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Example" class="tag-link">Example</a> 2 - When result is 0 But doesn t mean anything\|Example 2 - When result is > 0 (But doesn't mean anything)]]
+            
+    - [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Newton" class="tag-link">Newton</a> s Method\|Newton's Method]]
+        
+- [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Examples" class="tag-link">Examples</a>\|Examples]]
+    
+    - [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Example" class="tag-link">Example</a> 1 - cos x - x\|Example 1 - cos(x) - x]]
+        
+        - [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Check" class="tag-link">Check</a> if there s a root\|Check if there's a root]]
+            
+        - [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Find" class="tag-link">Find</a> the root using Newton s method\|Find the root using Newton's method]]
+            
+            - [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/p1" class="tag-link">p1</a>\|p1]]
+                
+            - [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/p2" class="tag-link">p2</a>\|p2]]
+                
+            - [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/px" class="tag-link">px</a>\|px]]
+                
+- [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Newton" class="tag-link">Newton</a> s Method derivation\|Newton's Method derivation]]
+    
+    - [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Method" class="tag-link">Method</a> 1 - Using Differentiation s Definition\|Method 1 - Using Differentiation's Definition]]
+        
+    - [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Method" class="tag-link">Method</a> 2 - Using tangent line\|Method 2 - Using tangent line]]
+        
+- [[90 Math/05 Calculus/06 Newton's Law.md<a href="tags/Resources" class="tag-link">Resources</a>\|Resources]]
+    
+
+### [[90 Math/05 Calculus/07 Rate of Change\|07 Rate of Change]]
+
+- [[90 Math/05 Calculus/07 Rate of Change.md<a href="tags/Description" class="tag-link">Description</a>\|Description]]
+    
+- [[90 Math/05 Calculus/07 Rate of Change.md<a href="tags/Examples" class="tag-link">Examples</a>\|Examples]]
+    
+- [[90 Math/05 Calculus/07 Rate of Change.md<a href="tags/References" class="tag-link">References</a>\|References]]
     
 
 ## erences

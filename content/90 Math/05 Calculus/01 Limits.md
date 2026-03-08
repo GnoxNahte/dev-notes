@@ -3,8 +3,8 @@ publish: true
 aliases:
   - L'Hopital's Rule
 created: 2026-01-22T17:16:16.061+08:00
-modified: 2026-02-14T20:42:53.897+08:00
-published: 2026-02-14T20:42:53.897+08:00
+modified: 2026-03-07T22:03:03.572+08:00
+published: 2026-03-07T22:03:03.572+08:00
 tags:
   - todo
 cssclasses: ""
@@ -112,12 +112,22 @@ $$
 
 $(1)$ - Divide both numerator and denominator by the highest polynomial<br>$(2)$ - Cancel any fractions that are divided by $x$. This is possible because when $x\to \infty$, $\frac{a}{\infty}$ will become a very small number (Effectively 0 as it approaches $\infty$)
 
+> [!TIP]- Can use when there are square roots and can't rationalise too!
+> $$
+> \begin{align}
+> \lim_{ x \to \infty } \frac{\sqrt{ x^6 + 2 }}{x^3+1}&=\lim_{ x \to \infty } \frac{(\sqrt{ x^6+2 })\cdot \frac{1}{x^3}}{(x^3+1)\cdot \frac{1}{x^3}} \\
+> &=\lim_{ x \to \infty } \frac{(\sqrt{ x^6+2 })\cdot \sqrt{ \frac{1}{x^6} }}{(x^3+1)\cdot \frac{1}{x^3}} \\
+> &=\lim_{ x \to \infty } \frac{\sqrt{ 1+\cancel{ \frac{2}{x^6} }}}{1+\cancel{ \frac{1}{x^3} }} \\
+> &=\frac{\sqrt{ 1 }}{1}=1
+> \end{align}
+> $$
+
 Related - [[90 Math/05 Calculus/02 Differentiation Concepts\|Differentiation]] 
 
 ### Definition of derivative
 $$
 \begin{align}
-\text{Find }\lim_{ x \to 0 } \frac{\sin{x}}{x},&   \\ \\
+\text{Find }\lim_{ x \to 0 } \frac{\sin{x}}{x},&   \\ \\ 
 
 \text{Let } f(x)&=\sin{x} \\
 \lim_{ x \to 0 } \frac{\sin{x}-\sin{0}}{x-0}&=\lim_{ x \to 0 } \frac{f(x)-f(0)}{x-0} \tag{1}\\
@@ -167,7 +177,7 @@ If the [[90 Math/05 Calculus/01 Limits#Left and right-handed limits]] aren't equ
 ### Example (Does Not Exist) - $\lim\limits_{ x \to 0 }\frac{1}{x}$
 ```functionplot
 ---
-title: f(x)=1/x
+title: 
 xLabel: 
 yLabel: 
 bounds: [-10,10,-10,10]
@@ -176,6 +186,7 @@ grid: true
 ---
 y=1/x
 ```
+$f(x)=\frac{1}{x}$
 
 As $x$ approaches 0 (0.1, 0.01, 0.001, etc),
 - Left-handed limit: $\lim\limits_{ x \to 0- } = -\infty$ 
@@ -186,7 +197,7 @@ Since $\lim\limits_{ x \to 0- }\neq \lim\limits_{ x \to 0+ }$ or $-\infty \neq \
 ### Example (Limit Exists - Counter to Example above) - $\lim\limits_{ x \to 0 } \frac{1}{x^2}$
 ```functionplot
 ---
-title: f(x)=1/x^2
+title: 
 xLabel: 
 yLabel: 
 bounds: [-10,10,-10,10]
@@ -195,9 +206,11 @@ grid: true
 ---
 y=1/x^2
 ```
+$f(x)=\frac{1}{x^2}$
+
 As $x$ approaches 0 (0.1, 0.01, 0.001, etc),
 - Left-handed limit: $\lim\limits_{ x \to 0- } = \infty$ 
-- Right-handed limit: $\lim\limits_{ x \to 0+}=\infty$
+- Right-handed limit: $\lim\limits_{ x \to 0+}=\infty$ 
 
 Since both left and right-handed limits approach the same direction, the two sided limit is: $\lim\limits_{ x \to 0 }=\infty$
 

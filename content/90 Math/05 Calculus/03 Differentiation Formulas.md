@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-01-23T14:04:50.533+08:00
-modified: 2026-02-08T15:39:03.253+08:00
-published: 2026-02-08T15:39:03.253+08:00
+modified: 2026-03-04T16:06:44.217+08:00
+published: 2026-03-04T16:06:44.217+08:00
 cssclasses: ""
 math-level: 3 - Uni Yr 1
 ---
@@ -49,7 +49,7 @@ math-level: 3 - Uni Yr 1
 | $\sec{x}$ | $\sec{x}\tan{x}$  |
 | $\cot{x}$ | $-\csc^2{x}$      |
 | $\csc{x}$ | $-\csc{x}\cot{x}$ |
-
+e
 Related: [[90 Math/01 Trigonometry/Trigonometry]]
 
 ### Exponents and Logarithms

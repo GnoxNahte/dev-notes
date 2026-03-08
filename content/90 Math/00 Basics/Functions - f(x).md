@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-01-10T11:41:03.085+08:00
-modified: 2026-02-12T22:24:28.868+08:00
-published: 2026-02-12T22:24:28.868+08:00
+modified: 2026-03-01T16:59:58.416+08:00
+published: 2026-03-01T16:59:58.416+08:00
 cssclasses: ""
 math-level: 3 - Uni Yr 1
 ---
@@ -37,7 +37,6 @@ Compositing the functions:
 
 $$
 \begin{align}
-
 fg(x)&=f\left( \frac{x-1}{x+5} \right) \\ 
 &=\left( \frac{x-1}{x+5} \right)^2-1
 \end{align}
@@ -149,7 +148,7 @@ Try to modify
 - d for stretching
 ![](https://www.desmos.com/calculator/aql9cewhhu)
 Stretching might be hard to notice but it's scaling the graph horizontally/vertically depending if it's multiplied to the parameter/result
-## Terminology
+## Terminology - Intervals
 - **Domain**: Range of input - $x$
 - **Range**: Range of result - $y$
 
