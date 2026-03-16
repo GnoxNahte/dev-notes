@@ -591,6 +591,10 @@ cssclasses: ""
 - [[90 Math/05 Calculus/07 Rate of Change.md<a href="tags/References" class="tag-link">References</a>\|References]]
     
 
+### [[90 Math/05 Calculus/08 Global & Local Max\|08 Global & Local Max]]
+
+### [[90 Math/05 Calculus/09 Curvature of graph\|09 Curvature of graph]]
+
 ## erences
 
 ### [[90 Math/99 Others/References/3blue1brown\|3blue1brown]]
