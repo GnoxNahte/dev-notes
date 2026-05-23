@@ -1,13 +1,8 @@
 ---
 publish: true
-created: 2026-02-12T10:21:43.744+08:00
-modified: 2026-02-15T15:24:50.708+08:00
-published: 2026-02-15T15:24:50.708+08:00
 tags:
   - todo
-cssclasses: ""
 ---
-
 ## Base class
 
 ```cpp
@@ -16,7 +11,7 @@ class Person {
 public:
 	Person(); // Constructor
 	Person(const char* name, int age); // Overloaded Constructor
-	~Person(); // Deconstructor
+	~Person(); // Destructor
 	
 	Person(Person const& rhs); // Copy constructor
 	Person& operator=(Person const& rhs); // Copy assignment

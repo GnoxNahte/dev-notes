@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-03-01T15:41:17.953+08:00
-modified: 2026-03-08T10:18:07.290+08:00
-published: 2026-03-08T10:18:07.290+08:00
+created: 2026-03-20T10:08:45.339+08:00
+modified: 2026-04-08T22:03:03.199+08:00
+published: 2026-04-08T22:03:03.199+08:00
 cssclasses: ""
 ---
 
@@ -19,7 +19,7 @@ For example, $f(x)=\cos{(x)-x}$
 
 ### Check if there's a root - Intermediate Value Theorem (IVT)
 Before wasting time to find the root between a domain $(a,b)$, need to check if a root even exists.
-- A root exists if the equation passes through $f(x)=0$
+- A root exists if the equation passes through $f(x)=0$ 
 - So the sign for $f(a)$ and $f(b)$ should be different
 - To check for this, if $f(a) \cdot f(b) < 0$, the roots exists
 	- *However, this doesn't mean that the root exists* if the result is $> 0$. See [[90 Math/05 Calculus/06 Newton's Law#Example 2 - WARNING Test Limitation\|example]] below
@@ -49,7 +49,7 @@ Using $f(x) = x^2 - 5$, find if there's a root between the $(-4, -2)$ and $(1, 3
 > $f(1) \cdot f(3)=-4 \times 4 = -16$
 > Since $< 0$, a root exists between $(1,3)$.
 
-#### Example 2 - When result is > 0 (But doesn't mean anything)
+#### Example 2 - When result is > 0 (It doesn't mean anything!)
 However, if the result is $> 0$, it doesn't confirm that a root exists!
 
 Using $f(x) = x^2 - 5$, find if there's a root between the domain $(-3, 3)$
@@ -61,8 +61,9 @@ Using $f(x) = x^2 - 5$, find if there's a root between the domain $(-3, 3)$
 
 ### Newton's Method
 $$
-p_{n+1}=p_n-\frac{f(p_n)}{f\,'(p_n)}
+p_{n+1}\approx p_n-\frac{f(p_n)}{f\,'(p_n)}
 $$
+This is a *approximation*! The accuracy of it increases with more iterations.
 
 See [[90 Math/05 Calculus/06 Newton's Law#Newton's Method derivation]] 
 

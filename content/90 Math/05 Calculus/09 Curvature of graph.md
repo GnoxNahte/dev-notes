@@ -1,8 +1,13 @@
 ---
 publish: true
+aliases:
+  - Differentiation Curve up
+  - Differentiation Curve down
+  - Differentiation CU
+  - Differentiation CD
 created: 2026-03-12T17:02:48.094+08:00
-modified: 2026-03-16T17:20:06.990+08:00
-published: 2026-03-16T17:20:06.990+08:00
+modified: 2026-03-18T20:51:38.175+08:00
+published: 2026-03-18T20:51:38.175+08:00
 cssclasses: ""
 ---
 

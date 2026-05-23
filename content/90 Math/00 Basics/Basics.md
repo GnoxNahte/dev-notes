@@ -1,6 +1,9 @@
 ---
 math-level: 1 - Secondary School
 publish: true
+aliases:
+  - quadratic equation
+  - b^2-4ac
 ---
 
 ## Quadratic Equation/Factorisation

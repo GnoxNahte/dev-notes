@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Differentiation Basics
-created: 2026-01-23T14:04:00.643+08:00
-modified: 2026-03-01T17:56:23.709+08:00
-published: 2026-03-01T17:56:23.709+08:00
+created: 2026-03-20T10:08:45.333+08:00
+modified: 2026-04-07T22:02:07.443+08:00
+published: 2026-04-07T22:02:07.443+08:00
 cssclasses: ""
 math-level: 3 - Uni Yr 1
 ---
@@ -298,7 +298,7 @@ grid: true
 f(x) = 5^x
 ```
 
-Graph can't show $\ln$
+\*Graph can't show $\ln$
 $$
 \begin{align}
 f(x)&=5^x\\
@@ -358,9 +358,8 @@ disableZoom: true
 grid: true
 ---
 f(x) = tan(x)
+g(x) = 1/(cos(x))^2
 ```
-
-Graph can't show $\sec{x}$
 $$
 \begin{align}
 f(x)&=\tan{x}\\

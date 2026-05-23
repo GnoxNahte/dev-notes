@@ -1,7 +1,12 @@
 ---
-math-level: 3 - Uni Yr 1
 publish: true
+created: 2026-01-04T15:30:58.005+08:00
+modified: 2026-03-27T14:06:20.066+08:00
+published: 2026-03-27T14:06:20.066+08:00
+cssclasses: ""
+math-level: 3 - Uni Yr 1
 ---
+
 
 ## Mean, Median, Mode
 - **Mean** ($\bar{x}$) - Average of all data

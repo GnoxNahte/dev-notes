@@ -1,7 +1,12 @@
 ---
 publish: true
+created: 2026-01-04T15:30:57.597+08:00
+modified: 2026-05-21T18:02:47.745+08:00
+published: 2026-05-21T18:02:47.745+08:00
+cssclasses: ""
 links: https://www.ascii-code.com/
 ---
+
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20240304094301/ASCII-Table.png)
 

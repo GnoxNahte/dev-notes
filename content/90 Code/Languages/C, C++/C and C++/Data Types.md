@@ -1,14 +1,19 @@
 ---
+publish: true
+created: 2026-01-04T15:30:57.731+08:00
+modified: 2026-05-20T23:23:08.564+08:00
+published: 2026-05-20T23:23:08.564+08:00
 tags:
   - todo
+cssclasses: ""
 links:
   - https://learn.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-170
   - https://en.wikipedia.org/wiki/C_data_types
   - https://cplusplus.com/reference/cstdio/printf/
 related-notes:
-  - "[[90 Code/Languages/C, C++/C only/io/printf]]"
-publish: true
+  - "[[printf]]"
 ---
+
 
 ## Types
 ### Base types

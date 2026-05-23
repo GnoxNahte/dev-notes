@@ -1,6 +1,11 @@
 ---
 publish: true
+created: 2026-02-26T17:01:40.805+08:00
+modified: 2026-03-18T18:03:24.058+08:00
+published: 2026-03-18T18:03:24.058+08:00
+cssclasses: ""
 ---
+
 ## Table of content
 - [[90 Math/05 Calculus/_Differentiation Formulas - All#Limits]] 
 - [[90 Math/05 Calculus/_Differentiation Formulas - All#Differentiation]] 
@@ -77,7 +82,6 @@ publish: true
 | $\sec{x}$ | $\sec{x}\tan{x}$  |
 | $\cot{x}$ | $-\csc^2{x}$      |
 | $\csc{x}$ | $-\csc{x}\cot{x}$ |
-
 Related: [[90 Math/01 Trigonometry/Trigonometry]]
 
 ### Exponents and Logarithms
@@ -102,3 +106,20 @@ Related: [[90 Math/01 Trigonometry/Trigonometry]]
 > $$
 
 Related: [[90 Math/02 Exponents/Exponents]], [[90 Math/02 Exponents/Logarithms]]
+
+
+### Newton's Method
+$$
+p_{n+1}=p_n-\frac{f(p_n)}{f\,'(p_n)}
+$$
+
+See [[90 Math/05 Calculus/_Differentiation Formulas - All#Newton's Method derivation]] 
+
+
+
+
+## Global, Local Max
+
+
+
+

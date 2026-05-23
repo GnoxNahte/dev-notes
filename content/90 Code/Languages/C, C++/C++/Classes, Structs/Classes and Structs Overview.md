@@ -8,7 +8,7 @@ class Person {
 public:
 	Person(); // Constructor
 	Person(const char* name, int age); // Overloaded Constructor
-	~Person(); // Deconstructor
+	~Person(); // Destructor
 	
 	Person(Person const& rhs); // Copy constructor
 	Person& operator=(Person const& rhs); // Copy assignment

@@ -1,6 +1,11 @@
 ---
 publish: true
+created: 2026-01-04T15:30:57.819+08:00
+modified: 2026-03-30T21:28:23.328+08:00
+published: 2026-03-30T21:28:23.328+08:00
+cssclasses: ""
 ---
+
 
 Links:
 - [Intro](https://opensource.com/article/18/8/what-how-makefile)
