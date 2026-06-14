@@ -1,0 +1,21 @@
+formulas:
+  Language: if(file.path.contains("Languages"), file.path.split('/')[2], "Others")
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("90 Code") && file.folder.contains("Snippets") && file.path != this.file.path
+    groupBy:
+      property: formula.Language
+      direction: ASC
+    order:
+      - file.name
+      - file.ext
+      - file.path
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: file.name
+        direction: DESC

@@ -1,0 +1,27 @@
+filters:
+  and:
+    - file.tags.contains("todo")
+formulas:
+  top folder: file.folder.split('/')[0].slice(3)
+  Main folder: file.folder.slice(file.folder.split('/')[0].length + 1)
+views:
+  - type: table
+    name: TODO - ALL
+    groupBy:
+      property: formula.top folder
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - formula.Main folder
+    sort: []
+  - type: table
+    name: TODO - Code
+    filters:
+      and:
+        - file.folder.startsWith("90 Code")
+  - type: table
+    name: TODO - Math
+    filters:
+      and:
+        - file.folder.startsWith("90 Math")

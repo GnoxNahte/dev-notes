@@ -1,0 +1,22 @@
+filters:
+  and:
+    - file.inFolder(this.file.folder) && file.path != this.file.path
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - description
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 152
+  - type: table
+    name: Complexity
+    sort:
+      - property: file.name
+        direction: ASC

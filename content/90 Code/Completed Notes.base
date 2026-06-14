@@ -1,0 +1,29 @@
+filters:
+  and:
+    - file.inFolder(this.file.folder) && file.path != this.file.path
+    - file.ext == "md"
+formulas:
+  Created Time: file.ctime.format("DD MMM YYYY, hh:mm A")
+  Modified Time: file.mtime.format("DD MMM YYYY, hh:mm A")
+  Created day: file.mtime.format("YYYY MM DD - DD MMM")
+properties:
+  formula.Created day:
+    displayName: Modified day
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - '!file.tags.contains("todo")'
+    groupBy:
+      property: formula.Created day
+      direction: DESC
+    order:
+      - file.name
+      - formula.Modified Time
+      - formula.Created Time
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      formula.Created Time: 172

@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.folder.startsWith("90 Math")
+    - file.ext == "md"
+formulas:
+  MainFolder: file.folder.split('/')[1]
+views:
+  - type: list
+    name: Table
+    groupBy:
+      property: formula.MainFolder
+      direction: ASC
+    order:
+      - file.name
+    indentProperties: false
+    markers: none

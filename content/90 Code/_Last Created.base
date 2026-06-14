@@ -1,0 +1,18 @@
+formulas:
+  Created day: file.ctime.format("YYYY MM DD - DD MMM")
+  Created time: file.ctime.format("DD MMM YYYY, hh:mm A")
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder(this.file.folder) && file.path != this.file.path
+    groupBy:
+      property: formula.Created day
+      direction: DESC
+    order:
+      - file.name
+      - formula.Created time
+    sort:
+      - property: file.ctime
+        direction: DESC

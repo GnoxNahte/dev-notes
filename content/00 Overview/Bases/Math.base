@@ -1,0 +1,31 @@
+filters:
+  and:
+    - '!file.inFolder("_Templates")'
+formulas:
+  Folder: file.folder.split('/')[1].slice(3)
+properties:
+  formula.Folder:
+    displayName: Category
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder.contains("90 Math")
+        - '!file.name.endsWith(".png")'
+    groupBy:
+      property: formula.Folder
+      direction: ASC
+    order:
+      - file.name
+      - formula.Folder
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.ext
+        direction: DESC
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - file.hasTag("math/notes")

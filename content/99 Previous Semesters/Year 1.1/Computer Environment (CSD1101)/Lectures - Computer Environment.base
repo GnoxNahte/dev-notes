@@ -1,0 +1,6 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "90 Programming/Year 1.1/Computer Environment (CSD1101)/Lectures"

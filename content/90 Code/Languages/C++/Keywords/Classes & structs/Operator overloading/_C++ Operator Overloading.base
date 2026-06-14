@@ -1,0 +1,10 @@
+filters:
+  and:
+    - file.inFolder("90 Code/Languages/C++/Keywords/Classes & structs/Operator overloading") && file.path != this.file.path && file.ext != "base"
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - code/operator
+    sort: []
