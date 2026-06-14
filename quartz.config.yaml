@@ -1,17 +1,18 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: My Notes
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: vercel
   locale: en-US
   baseUrl: notes.gnoxnahte.dev
   ignorePatterns:
     - private
     - templates
     - .obsidian
+    - "[0-9][0-9] Templates/**"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -87,6 +88,9 @@ plugins:
     enabled: true
     options:
       markdownLinkResolution: shortest
+      externalLinkIcon: true
+      openLinksInNewTab: true
+      lazyLoad: true
     order: 60
   - source: github:quartz-community/description
     enabled: true
@@ -94,7 +98,7 @@ plugins:
   - source: github:quartz-community/latex
     enabled: true
     options:
-      renderEngine: katex
+      renderEngine: mathjax
     order: 80
   - source: github:quartz-community/citations
     enabled: false
@@ -141,7 +145,7 @@ plugins:
   - source: github:quartz-community/favicon
     enabled: true
   - source: github:quartz-community/og-image
-    enabled: true
+    enabled: false
   - source: github:quartz-community/cname
     enabled: true
   - source: github:quartz-community/canvas-page
@@ -154,6 +158,7 @@ plugins:
     enabled: true
   - source: github:quartz-community/explorer
     enabled: true
+    folderClickBehavior: click
     layout:
       position: left
       priority: 50
@@ -225,8 +230,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/GnoxNahte/dev-notes
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
@@ -262,7 +266,7 @@ plugins:
       name: quartz-themes
       repo: github:saberzero1/quartz-themes
       subdir: plugin
-    enabled: true
+    enabled: false
     options:
       theme: default
   - source: github:quartz-community/obsidian-plugin-excalidraw
