@@ -1,3 +1,41 @@
 @use "./variables.scss" as *;
+@use "sass:map";
 
 // put your custom CSS here!
+
+.page {
+  max-width: calc(#{map.get($breakpoints, desktop)} + 400px);
+}
+
+table, tr, td, th {
+  border: 2px solid color-mix(in srgb, var(--gray) 50%, var(--light));
+}
+
+th {
+  background-color: color-mix(in srgb, var(--light) 50%, black);
+  border-width: 3px;
+}
+html[saved-theme="light"] th {
+  background-color: color-mix(in srgb, var(--light) 50%, white);
+}
+// === Obsidian Custom CSS ===
+html[saved-theme="dark"] .img-fill-transparent-bg img {
+    background-color: #fff;
+}
+
+html[saved-theme="light"] .img-fill-transparent-bg img {
+    background-color: #000;
+}
+
+html[saved-theme="dark"] .img-flip img {
+    filter: invert(1);
+}
+
+.center {
+  h1 { color: #BF616A; }
+  h2 { color: #D08770; }
+  h3 { color: #EBCB8B; }
+  h4 { color: #A3BE8C; }
+  h5 { color: #88C0D0; }
+  h6 { color: #B48EAD; }
+}
