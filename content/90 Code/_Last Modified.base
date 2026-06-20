@@ -1,6 +1,6 @@
 formulas:
-  Modified day: file.mtime.format("YYYY MM DD - DD MMM")
   Modified Time: file.mtime.format("DD MMM YYYY, hh:mm A")
+  Modified day: '[html("<span style=\"display:none;\">" + file.mtime.format("YYYY-DD-MM")+ "</span>"), file.mtime.format("DD MMM YYYY")]'
 views:
   - type: table
     name: Table
@@ -13,7 +13,6 @@ views:
     order:
       - file.name
       - formula.Modified Time
-      - formula.Created day
     sort:
       - property: file.mtime
         direction: DESC

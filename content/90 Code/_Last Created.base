@@ -1,5 +1,5 @@
 formulas:
-  Created day: file.ctime.format("YYYY MM DD - DD MMM")
+  Created day: '[html("<span style=\"display:none;\">" + file.ctime.format("YYYY-DD-MM")+ "</span>"), file.mtime.format("DD MMM YYYY")]'
   Created time: file.ctime.format("DD MMM YYYY, hh:mm A")
 views:
   - type: table

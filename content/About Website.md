@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-01-04T15:31:00.776+08:00
-modified: 2026-06-18T17:08:25.293+08:00
-published: 2026-06-18T17:08:25.293+08:00
+modified: 2026-06-18T21:21:37.969+08:00
+published: 2026-06-18T21:21:37.969+08:00
 ---
 
 ## Overview
@@ -33,3 +33,12 @@ It's very fast to update a note and publish it, see [kepano's workflow with Obsi
 Other cool [Quartz websites](https://github.com/quartz-community/awesome-quartz?tab=readme-ov-file#sites-showcase).
 
 I really like [Obsidian](https://obsidian.md/) and [Quartz](https://quartz.jzhao.xyz/)! Highly recommend them to anyone who's interested in note-taking to use it :)
+
+> [!WARNING] Drawings not rendering correctly
+> I'm using [Excalidraw](https://excalidraw.com/) isn't fully supported in quartz, waiting for fully support.
+>
+> Main problems:
+>
+> - Latex (math equations) isn't rendering properly
+> - Wrong fonts
+> - Some lines are missing
