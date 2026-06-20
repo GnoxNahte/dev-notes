@@ -15,6 +15,17 @@ th {
   background-color: color-mix(in srgb, var(--light) 50%, black);
   border-width: 3px;
 }
+
+.bases-table-group-header td {
+  background: var(--secondary);
+}
+.bases-table-group-property {
+  display: none;
+}
+.bases-table-group-label {
+  color: var(--light)
+}
+
 html[saved-theme="light"] th {
   background-color: color-mix(in srgb, var(--light) 50%, white);
 }
@@ -31,11 +42,20 @@ html[saved-theme="dark"] .img-flip img {
     filter: invert(1);
 }
 
-.center {
+html[saved-theme="dark"] .center {
   h1 { color: #BF616A; }
   h2 { color: #D08770; }
   h3 { color: #EBCB8B; }
   h4 { color: #A3BE8C; }
   h5 { color: #88C0D0; }
+  h6 { color: #B48EAD; }
+}
+
+html[saved-theme="light"] .center {
+  h1 { color: #BF616A; }
+  h2 { color: #D08770; }
+  h3 { color: #E2B65E; }
+  h4 { color: #95b677; }
+  h5 { color: #65afc4; }
   h6 { color: #B48EAD; }
 }
