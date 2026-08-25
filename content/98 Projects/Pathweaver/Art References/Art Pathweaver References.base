@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.inFolder(this.file.folder) && this.file != file
+formulas:
+  Parent Folder: file.path.split('/')[-2]
+views:
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - file.ext != "md"
+    groupBy:
+      property: formula.Parent Folder
+      direction: ASC
+    image: file.file
+    cardSize: 620
+    imageAspectRatio: 0.6
+    imageFit: contain
