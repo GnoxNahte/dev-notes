@@ -1,8 +1,5 @@
 ---
 publish: true
-created: 2026-06-06T22:41:35.261+08:00
-modified: 2026-06-06T23:01:37.410+08:00
-published: 2026-06-06T23:01:37.410+08:00
 tags:
   - todo
 ---
@@ -11,5 +8,5 @@ tags:
 
 ## Related Notes
 
-- [[Graphics - Matrix Transformation]]
+- [[00 - 2D Matrix Transformation Overview]]
 - [[Textures#Coordinates|Textures > Coordinates]]

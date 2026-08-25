@@ -1,8 +1,5 @@
 ---
 publish: true
-created: 2026-01-04T15:31:00.776+08:00
-modified: 2026-06-18T21:21:37.969+08:00
-published: 2026-06-18T21:21:37.969+08:00
 ---
 
 ## Overview
@@ -17,9 +14,18 @@ I also like the search in [Quartz](https://quartz.jzhao.xyz/)! It's fast and the
 > - I'm still a student
 > - There's probably better sources elsewhere
 >
-> I still try to be as accurate as possible though. In most of my notes I've also linked to other sources such as the documentation ([cppreference](https://en.cppreference.com/), [mdn](https://developer.mozilla.org/en-US/)), forums ([StackOverflow](https://stackoverflow.com/)) or various articles.
+> I will still try to be as accurate as possible though. In most of my notes I've also linked to other sources where I got my information from such as the documentation ([cppreference](https://en.cppreference.com/), [mdn](https://developer.mozilla.org/en-US/)), forums ([StackOverflow](https://stackoverflow.com/)) or various articles.
 >
 > **If you find anything that's wrong in the website or have any feedback, please let me know!** Thanks!
+
+### AI Use
+
+All my notes are manually written by me. I feel writing it in my own words helps me understand the material better. It also feels like teaching my future self so I ask more questions to make sure I understand it as much as I can.
+
+Where I use AI:
+
+- Double checking if what I wrote is correct
+- Help with understanding something I couldn't understand **after trying my best to understand from other sources (documentation, articles, forums, etc)**
 
 ## How the website is built
 

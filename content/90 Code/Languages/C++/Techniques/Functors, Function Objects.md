@@ -8,9 +8,16 @@ tags:
 
 ## Why use
 
-- Mainly can hold state
+- Can hold state
+- Able to store and pass around as variables
 
 ## Example
+
+### Example - STL
+
+C++ STL function objects: [cppreference](https://en.cppreference.com/cpp/utility/functional#:~:text=Operator%20function%20objects)
+
+### Example - Custom
 
 Reference - https://stackoverflow.com/q/6451866
 
@@ -37,3 +44,7 @@ private:
 };
 
 ```
+
+## Links
+
+- [cppreference - Function Objects](https://en.cppreference.com/cpp/utility/functional)

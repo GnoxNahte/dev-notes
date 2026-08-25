@@ -1,17 +1,46 @@
 ---
 publish: true
+aliases:
+  - line drawing
+created: 2026-06-24T11:32:08.847Z
+modified: 2026-08-01T06:41:38.213Z
+published: 2026-08-01T06:41:38.213Z
 tags:
   - todo
-aliases:
 ---
 
 ## Overview
 
 ### Table of contents
 
-No headings found in this note.
+```dataviewjs
+const file = app.workspace.getActiveFile();
+if (file) {
+    const cache = app.metadataCache.getFileCache(file);
+    const headings = cache.headings;
+
+    if (headings) {
+	    if (headings[0].heading.contains("Table of Content"))
+		    headings.shift();
+		
+	    //console.log(headings);
+        const toc = headings.map(heading => {
+            // Create indentation based on heading level
+            const indent = "  ".repeat(heading.level - 1);
+            // Create a markdown link to the heading
+            return `${indent}- [[#${heading.heading}|${heading.heading}]]`;
+        }).join("\n");
+
+        dv.paragraph(toc);
+    } else {
+        dv.paragraph("No headings found in this note.");
+    }
+}
+```
 
 ## Digital Differential Analyzer (DDA) Line
+
+See: [[Grid Raycasting#Digital Differential Analyzer (DDA) Raycasting]]
 
 ## Bresenhams line
 
@@ -35,8 +64,8 @@ Only handles when slope ($m$ in $y=mx+c$) is in the range \[0, 1].
 ```cpp
 #include <iostream>
 
-constexpr int SIZE_X = 20;
-constexpr int SIZE_Y = 20;
+constexpr int SIZE_X = 10;
+constexpr int SIZE_Y = 5;
 bool grid[SIZE_X * SIZE_Y] {};
 
 // Set pixel at (x,y) to true
@@ -55,7 +84,7 @@ void drawLine(int x0, int y0, int x1, int y1)
 
     int y = y0;
     int D = 2 * dy - dx;
-    for (int x = 0; x < dx + 1; x++)
+    for (int x = x0; x < dx + 1; x++)
     {
         setPixel(x, y);
 
@@ -71,10 +100,10 @@ void drawLine(int x0, int y0, int x1, int y1)
 
 int main() 
 {
-    drawLine(0, 0, 10 ,2);
+    drawLine(2, 1, 9 ,4);
 
     // Print grid
-    for (int y = 0; y < SIZE_Y; y++)
+    for (int y = SIZE_Y - 1; y >= 0; y--)
     {
         for (int x = 0; x < SIZE_X; x++)
             std::cout << grid[y * SIZE_X + x];
@@ -87,15 +116,10 @@ int main()
 Output:
 
 ```
-1110000000
-0001111100
-0000000011
-1000000000
 0000000000
-0000000000
-0000000000
-0000000000
-0000000000
+0000001100
+0000110000
+0011000000
 0000000000
 ```
 

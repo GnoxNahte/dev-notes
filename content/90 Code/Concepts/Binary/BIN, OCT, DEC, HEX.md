@@ -2,6 +2,9 @@
 publish: true
 aliases:
   - Encoding basics
+created: 2026-01-04T07:30:57.604Z
+modified: 2026-08-05T06:33:07.120Z
+published: 2026-08-05T06:33:07.120Z
 ---
 
 ## Numbering systems

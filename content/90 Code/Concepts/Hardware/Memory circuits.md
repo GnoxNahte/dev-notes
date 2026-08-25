@@ -1,5 +1,8 @@
 ---
 publish: true
+created: 2026-01-04T07:30:57.653Z
+modified: 2026-08-04T00:38:55.253Z
+published: 2026-08-04T00:38:55.253Z
 ---
 
 ## RS Flip-flop

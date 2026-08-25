@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Differentiation Basics
-created: 2026-03-20T10:08:45.333+08:00
-modified: 2026-04-07T22:02:07.443+08:00
-published: 2026-04-07T22:02:07.443+08:00
+created: 2026-03-20T02:08:45.333Z
+modified: 2026-04-07T14:02:07.443Z
+published: 2026-04-07T14:02:07.443Z
 math-level: 3 - Uni Yr 1
 ---
 

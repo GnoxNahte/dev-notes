@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-01-04T15:30:57.785+08:00
-modified: 2026-02-20T22:43:22.925+08:00
-published: 2026-02-20T22:43:22.925+08:00
+created: 2026-01-04T07:30:57.785Z
+modified: 2026-02-20T14:43:22.925Z
+published: 2026-02-20T14:43:22.925Z
 links/docs: https://cplusplus.com/reference/cstdio/printf/
 ---
 

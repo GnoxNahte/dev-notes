@@ -1,10 +1,11 @@
 ---
 publish: true
-created: 2026-01-04T15:30:57.751+08:00
-modified: 2026-06-11T18:20:57.052+08:00
-published: 2026-06-11T18:20:57.052+08:00
+created: 2026-07-07T04:15:39.911Z
+modified: 2026-08-02T12:03:17.796Z
+published: 2026-08-02T12:03:17.796Z
 tags:
   - todo
+aliases:
 ---
 
 ## Overview
@@ -18,6 +19,12 @@ tags:
 | Can read                   | ✅                           | ✅                                  |
 | Others                     | Has name/variable/address   |                                    |
 | Examples <br>(`int a,b,c`) |                             |                                    |
+
+## Variations - lvalue, rvalue, glvalue, xvalue, prvalues
+
+Link:
+
+- [StackOverflow - What are rvalues, lvalues, xvalues, glvalues, and prvalues?](https://stackoverflow.com/questions/3601602/what-are-rvalues-lvalues-xvalues-glvalues-and-prvalues)
 
 ## Examples
 

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Copy-swap idiom
-created: 2026-06-11T16:05:14.801+08:00
-modified: 2026-06-11T18:23:28.595+08:00
-published: 2026-06-11T18:23:28.595+08:00
+created: 2026-06-11T08:05:14.801Z
+modified: 2026-06-11T10:23:28.595Z
+published: 2026-06-11T10:23:28.595Z
 tags:
   - todo
 ---

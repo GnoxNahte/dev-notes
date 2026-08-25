@@ -5,9 +5,9 @@ aliases:
   - Differentiation Curve down
   - Differentiation CU
   - Differentiation CD
-created: 2026-03-12T17:02:48.094+08:00
-modified: 2026-03-18T20:51:38.175+08:00
-published: 2026-03-18T20:51:38.175+08:00
+created: 2026-03-12T09:02:48.094Z
+modified: 2026-03-18T12:51:38.175Z
+published: 2026-03-18T12:51:38.175Z
 ---
 
 ![](https://www.desmos.com/calculator/m81l4cjpmx)

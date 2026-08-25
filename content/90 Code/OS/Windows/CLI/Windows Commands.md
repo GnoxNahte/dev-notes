@@ -1,6 +1,9 @@
 ---
-related-notes: "[[Linux Commands]]"
 publish: true
+created: 2026-01-04T07:30:57.800Z
+modified: 2026-08-20T11:12:31.241Z
+published: 2026-08-20T11:12:31.241Z
+related-notes: "[[Linux Commands]]"
 ---
 
 ## General
@@ -41,3 +44,9 @@ publish: true
 | ---------------------- | --------------------------------------------------------------- |
 | `./q.out < input.txt`  | Passes `input.txt` into the input stream when running `./q.out` |
 | `./q.out > output.txt` | Outputs the result of `q.out` into `output.txt`                 |
+
+### Others
+
+| Snippet                                     | Description       |
+| ------------------------------------------- | ----------------- |
+| `certutil -hashfile <file> <MD5 or SHA256>` | Get hash for file |

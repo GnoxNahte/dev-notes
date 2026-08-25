@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-01-04T15:30:57.769+08:00
-modified: 2026-05-31T23:01:19.901+08:00
-published: 2026-05-31T23:01:19.901+08:00
+created: 2026-01-04T07:30:57.769Z
+modified: 2026-05-31T15:01:19.901Z
+published: 2026-05-31T15:01:19.901Z
 ---
 
 ## Generate random double

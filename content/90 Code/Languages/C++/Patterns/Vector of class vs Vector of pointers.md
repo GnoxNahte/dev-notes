@@ -1,10 +1,13 @@
 ---
 publish: true
+created: 2026-05-31T04:20:17.694Z
+modified: 2026-08-02T22:46:40.229Z
+published: 2026-08-02T22:46:40.229Z
 tags:
   - todo
 ---
 
-## Main
+## Overview
 
 Better to have
 
@@ -13,4 +16,8 @@ std::vector<Foo> vFoo;
 std::vector<Foo*> vFooPtrs;
 ```
 
-**BUT this is only better if Foo can fit in the CPU's L1/L2/L3 cache**
+| Scenario                                       | Use...             | Why                                                      |
+| ---------------------------------------------- | ------------------ | -------------------------------------------------------- |
+| Iterating when `sizeof(Foo) * size` is _small_ | Vector of class    | Can fit the whole vector in CPU's cache                  |
+| Iterating when `sizeof(Foo) * size` is _large_ | Vector of pointers | Can't fit it in CPU cache, has to keep fetching from RAM |
+| Swapping order/Sorting                         | Vector of pointers | `sizeof(Foo*) < sizeof(Foo)` so easier to swap           |

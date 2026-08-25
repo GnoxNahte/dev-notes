@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-01-04T15:30:57.785+08:00
-modified: 2026-05-31T23:01:50.022+08:00
-published: 2026-05-31T23:01:50.022+08:00
+created: 2026-01-04T07:30:57.785Z
+modified: 2026-05-31T15:01:50.022Z
+published: 2026-05-31T15:01:50.022Z
 tags:
   - todo
 links/docs: https://cplusplus.com/reference/cstdio/scanf/

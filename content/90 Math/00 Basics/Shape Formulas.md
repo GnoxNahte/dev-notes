@@ -3,9 +3,9 @@ publish: true
 aliases:
   - Geometry Formulas
   - Area Formulas
-created: 2026-03-04T18:27:22.260+08:00
-modified: 2026-03-31T15:26:51.038+08:00
-published: 2026-03-31T15:26:51.038+08:00
+created: 2026-03-04T10:27:22.260Z
+modified: 2026-03-31T07:26:51.038Z
+published: 2026-03-31T07:26:51.038Z
 ---
 
 ## 2D

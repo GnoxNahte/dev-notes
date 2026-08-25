@@ -6,9 +6,9 @@ aliases:
   - Cosine Laws
   - Compound Angle formulas
   - Special Trigo Angles
-created: 2026-01-04T15:30:57.880+08:00
-modified: 2026-01-14T22:45:07.434+08:00
-published: 2026-01-14T22:45:07.434+08:00
+created: 2026-01-04T07:30:57.880Z
+modified: 2026-01-14T14:45:07.434Z
+published: 2026-01-14T14:45:07.434Z
 math-level: 1 - Secondary School
 related-notes:
   - "[[1. Vector - Basics (2D)]]"

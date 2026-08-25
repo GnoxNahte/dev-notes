@@ -3,9 +3,9 @@ publish: true
 aliases:
   - overriding new operator
   - overloading new operator
-created: 2026-04-05T09:36:43.235+08:00
-modified: 2026-04-05T10:40:20.427+08:00
-published: 2026-04-05T10:40:20.427+08:00
+created: 2026-04-05T01:36:43.235Z
+modified: 2026-04-05T02:40:20.427Z
+published: 2026-04-05T02:40:20.427Z
 ---
 
 ```cpp

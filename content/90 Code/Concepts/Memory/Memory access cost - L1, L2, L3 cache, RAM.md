@@ -1,0 +1,39 @@
+---
+publish: true
+created: 2026-07-18T02:37:24.083Z
+modified: 2026-08-04T00:40:17.088Z
+published: 2026-08-04T00:40:17.088Z
+tags:
+  - todo
+---
+
+## Speed
+
+```cpp
+           0.5 ns - CPU L1 dCACHE reference
+           1   ns - speed-of-light (a photon) travel a 1 ft (30.5cm) distance
+           5   ns - CPU L1 iCACHE Branch mispredict
+           7   ns - CPU L2  CACHE reference
+          71   ns - CPU cross-QPI/NUMA best  case on XEON E5-46*
+         100   ns - MUTEX lock/unlock
+         100   ns - own DDR MEMORY reference
+         135   ns - CPU cross-QPI/NUMA best  case on XEON E7-*
+         202   ns - CPU cross-QPI/NUMA worst case on XEON E7-*
+         325   ns - CPU cross-QPI/NUMA worst case on XEON E5-46*
+      10,000   ns - Compress 1K bytes with Zippy PROCESS
+      20,000   ns - Send 2K bytes over 1 Gbps NETWORK
+     250,000   ns - Read 1 MB sequentially from MEMORY
+     500,000   ns - Round trip within a same DataCenter
+  10,000,000   ns - DISK seek
+  10,000,000   ns - Read 1 MB sequentially from NETWORK
+  30,000,000   ns - Read 1 MB sequentially from DISK
+ 150,000,000   ns - Send a NETWORK packet CA -> Netherlands
+|   |   |   |
+|   |   | ns|
+|   | us|
+| ms|
+```
+
+Source:
+
+- [StackOverflow - Approximate cost to access various caches and main memory?](https://stackoverflow.com/questions/4087280/approximate-cost-to-access-various-caches-and-main-memory)

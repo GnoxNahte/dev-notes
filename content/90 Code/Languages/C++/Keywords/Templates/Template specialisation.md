@@ -1,8 +1,5 @@
 ---
 publish: true
-created: 2026-06-06T16:06:55.499+08:00
-modified: 2026-06-14T09:32:33.636+08:00
-published: 2026-06-14T09:32:33.636+08:00
 tags:
   - todo
 ---
@@ -31,6 +28,11 @@ template <typename T>
 > ^ is an error.
 
 ## Full specialisation
+
+```cpp
+template<>
+
+```
 
 ## Examples
 

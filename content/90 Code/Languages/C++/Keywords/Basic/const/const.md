@@ -1,8 +1,5 @@
 ---
 publish: true
-created: 2026-06-01T10:18:26.162+08:00
-modified: 2026-06-06T18:30:01.360+08:00
-published: 2026-06-06T18:30:01.360+08:00
 tags:
   - todo
 ---
@@ -34,7 +31,7 @@ Makes a variable read-only
 
 ### Defining array size
 
-Only can use `#define`
+Only can use `#define`, `constexpr`, `constexpr` as `const` isn't **compile-time**
 Reason: [Stackoverflow qn](https://stackoverflow.com/questions/34997660/defining-the-size-of-an-array-using-a-const-int)
 
 ## Links

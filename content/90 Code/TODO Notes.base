@@ -5,13 +5,16 @@ filters:
 formulas:
   Created Time: file.ctime.format("DD MMM YYYY, hh:mm A")
   Modified Time: file.mtime.format("DD MMM YYYY, hh:mm A")
-  Created day: file.mtime.format("YYYY MM DD - DD MMM")
+  Created day: file.ctime.format("YYYY MM DD - DD MMM")
+  day: file.ctime.format("YYYY MM DD - DD MMM")
 properties:
   formula.Created day:
     displayName: Modified day
+  formula.day:
+    displayName: Created day
 views:
   - type: table
-    name: Table
+    name: TODO - Modified
     filters:
       and:
         - file.tags.contains("todo")
@@ -21,9 +24,25 @@ views:
     order:
       - file.name
       - formula.Modified Time
-      - formula.Created Time
+      - formula.Created dat
     sort:
       - property: file.mtime
+        direction: DESC
+    columnSize:
+      formula.Created Time: 160
+  - type: table
+    name: TODO - Created
+    filters:
+      and:
+        - file.tags.contains("todo")
+    groupBy:
+      property: formula.day
+      direction: DESC
+    order:
+      - file.name
+      - formula.Created Time
+    sort:
+      - property: formula.day
         direction: DESC
     columnSize:
       formula.Created Time: 160

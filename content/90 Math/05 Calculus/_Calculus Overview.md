@@ -1,13 +1,36 @@
 ---
 publish: true
-created: 2026-03-20T10:08:45.346+08:00
-modified: 2026-03-27T14:00:11.908+08:00
-published: 2026-03-27T14:00:11.908+08:00
+created: 2026-03-20T02:08:45.346Z
+modified: 2026-03-27T06:00:11.908Z
+published: 2026-03-27T06:00:11.908Z
 ---
 
 ## Table of Contents
 
-No headings found in this note.
+```dataviewjs
+const file = app.workspace.getActiveFile();
+if (file) {
+    const cache = app.metadataCache.getFileCache(file);
+    const headings = cache.headings;
+
+    if (headings) {
+	    if (headings[0].heading.contains("Table of Content"))
+		    headings.shift();
+		
+	    //console.log(headings);
+        const toc = headings.map(heading => {
+            // Create indentation based on heading level
+            const indent = "  ".repeat(heading.level - 1);
+            // Create a markdown link to the heading
+            return `${indent}- [[#${heading.heading}|${heading.heading}]]`;
+        }).join("\n");
+
+        dv.paragraph(toc);
+    } else {
+        dv.paragraph("No headings found in this note.");
+    }
+}
+```
 
 ## Limits
 

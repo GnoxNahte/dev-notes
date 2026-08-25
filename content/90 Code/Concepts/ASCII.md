@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-01-04T15:30:57.597+08:00
-modified: 2026-05-21T18:02:47.745+08:00
-published: 2026-05-21T18:02:47.745+08:00
+created: 2026-01-04T07:30:57.597Z
+modified: 2026-08-04T00:41:46.653Z
+published: 2026-08-04T00:41:46.653Z
 links: https://www.ascii-code.com/
 ---
 
@@ -10,17 +10,17 @@ links: https://www.ascii-code.com/
 
 ## Common ASCII values
 
-| DEC | Symbol          | Alt name |
-| --- | --------------- | -------- |
-| 0   | NULL            | 0        |
-| 10  | Line Feed       | `\n`     |
-| 13  | Carriage Return | `\r`     |
-| 48  | 0               |          |
-| 57  | 9               |          |
-| 65  | A               |          |
-| 90  | Z               |          |
-| 97  | a               |          |
-| 122 | z               |          |
+| DEC | Name | Alt name        |
+| --- | ---- | --------------- |
+| 0   | NULL | 0               |
+| 10  | `\n` | Line Feed       |
+| 13  | `\r` | Carriage Return |
+| 48  | 0    |                 |
+| 57  | 9    |                 |
+| 65  | A    |                 |
+| 90  | Z    |                 |
+| 97  | a    |                 |
+| 122 | z    |                 |
 
 ## ASCII (Main)
 

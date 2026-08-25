@@ -71,3 +71,24 @@ Explaining the code at their different points
 
 > [!NOTE]- `result |= (value & 0x000000FF) << 24`
 > Set the first byte (8 bits) to the result
+
+## Code to check endianness
+
+### Manually (Pre C++20)
+
+```cpp
+bool IsBigEndian() {
+	uint32_t val{0x01234567U};
+	return (0x67 != *reinterpret_cast<uint8_t*>(&val));
+}
+```
+
+### Using language
+
+```cpp
+#include <bit>
+
+bool IsBigEndian() {
+	return std::endian == std::endian::big;
+}
+```

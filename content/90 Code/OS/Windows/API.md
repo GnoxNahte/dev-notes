@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-01-07T21:24:40.394+08:00
-modified: 2026-01-07T21:28:40.112+08:00
-published: 2026-01-07T21:28:40.112+08:00
+created: 2026-01-07T13:24:40.394Z
+modified: 2026-01-07T13:28:40.112Z
+published: 2026-01-07T13:28:40.112Z
 ---
 
 ## Resizable window

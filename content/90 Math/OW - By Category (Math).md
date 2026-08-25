@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-01-04T15:30:58.015+08:00
-modified: 2026-01-24T09:57:45.710+08:00
-published: 2026-01-24T09:57:45.710+08:00
+created: 2026-01-04T07:30:58.015Z
+modified: 2026-01-24T01:57:45.710Z
+published: 2026-01-24T01:57:45.710Z
 ---
 
 ## Basics
@@ -213,59 +213,61 @@ published: 2026-01-24T09:57:45.710+08:00
 
   - [[90 Math/03 Vectors/2E. Vector - Vector, Parametric equations Explanation \(2D|Proof - Find linear equation using \vec{n} and 1 point]].md<a href="tags/Proof" class="tag-link">Proof</a> - Find linear equation using vec n and 1 point)
 
-### [[3. Vectors - 3D|3. Vectors - 3D]]
+### [[3. Vectors - 3D Vectors, Lines, Planes|3. Vectors - 3D Vectors, Lines, Planes]]
 
-- [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Lines" class="tag-link">Lines</a>|Lines]]
+- [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Lines" class="tag-link">Lines</a>|Lines]]
 
-  - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Notation" class="tag-link">Notation</a>|Notation]]
+  - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Notation" class="tag-link">Notation</a>|Notation]]
 
-  - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Quick" class="tag-link">Quick</a> normal vector in 3D|Quick normal vector in 3D]]
+  - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Quick" class="tag-link">Quick</a> normal vector in 3D|Quick normal vector in 3D]]
 
-  - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Are" class="tag-link">Are</a> 2 lines the same|Are 2 lines the same]]
+  - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Are" class="tag-link">Are</a> 2 lines the same|Are 2 lines the same]]
 
-- [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Planes" class="tag-link">Planes</a>|Planes]]
+- [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Planes" class="tag-link">Planes</a>|Planes]]
 
-  - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Notation" class="tag-link">Notation</a>|Notation]]
+  - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Notation" class="tag-link">Notation</a>|Notation]]
 
-    - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Vector" class="tag-link">Vector</a> equation|Vector equation]]
+    - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Vector" class="tag-link">Vector</a> equation|Vector equation]]
 
-      - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/3" class="tag-link">3</a> Points to Vector equation|3 Points \to Vector equation]]
+      - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/3" class="tag-link">3</a> Points to Vector equation|3 Points \to Vector equation]]
 
-      - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Vector" class="tag-link">Vector</a> to Linear equation|Vector \to Linear equation]]
+      - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Vector" class="tag-link">Vector</a> to Linear equation|Vector \to Linear equation]]
 
-    - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Linear" class="tag-link">Linear</a> equation|Linear equation]]
+    - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Linear" class="tag-link">Linear</a> equation|Linear equation]]
 
-- [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Cross" class="tag-link">Cross</a> product|Cross product]]
+  - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Checking" class="tag-link">Checking</a> if a point is in front of the plane|Checking if a point is in front of the plane]]
 
-  - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Cross" class="tag-link">Cross</a> product Laws|Cross product Laws]]
+- [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Cross" class="tag-link">Cross</a> product|Cross product]]
 
-  - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Finding" class="tag-link">Finding</a> area of triangle with cross product|Finding area of triangle with cross product]]
+  - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Cross" class="tag-link">Cross</a> product Laws|Cross product Laws]]
 
-- [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Calculating" class="tag-link">Calculating</a> Distances|Calculating Distances]]
+  - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Finding" class="tag-link">Finding</a> area of triangle with cross product|Finding area of triangle with cross product]]
 
-  - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Distances" class="tag-link">Distances</a> for Lines|Distances for Lines]]
+- [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Calculating" class="tag-link">Calculating</a> Distances|Calculating Distances]]
 
-    - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Point" class="tag-link">Point</a> to Line|Point to Line]]
+  - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Distances" class="tag-link">Distances</a> for Lines|Distances for Lines]]
 
-    - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Line" class="tag-link">Line</a> to Line|Line to Line]]
+    - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Point" class="tag-link">Point</a> to Line|Point to Line]]
 
-    - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Line" class="tag-link">Line</a> to Plane|Line to Plane]]
+    - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Line" class="tag-link">Line</a> to Line|Line to Line]]
 
-  - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Distances" class="tag-link">Distances</a> for Planes|Distances for Planes]]
+    - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Line" class="tag-link">Line</a> to Plane|Line to Plane]]
 
-    - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Plane" class="tag-link">Plane</a> to Point|Plane to Point]]
+  - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Distances" class="tag-link">Distances</a> for Planes|Distances for Planes]]
 
-    - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Plane" class="tag-link">Plane</a> to Line Plane to Plane|Plane to Line, Plane to Plane]]
+    - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Plane" class="tag-link">Plane</a> to Point|Plane to Point]]
 
-- [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Calculating" class="tag-link">Calculating</a> Angles|Calculating Angles]]
+    - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Plane" class="tag-link">Plane</a> to Line Plane to Plane|Plane to Line, Plane to Plane]]
 
-  - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Recap" class="tag-link">Recap</a> - Angle between 2 vectors|Recap - Angle between 2 vectors]]
+- [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Calculating" class="tag-link">Calculating</a> Angles|Calculating Angles]]
 
-  - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Line" class="tag-link">Line</a> to Line Angle|Line to Line Angle]]
+  - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Recap" class="tag-link">Recap</a> - Angle between 2 vectors|Recap - Angle between 2 vectors]]
 
-  - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Line" class="tag-link">Line</a> to Plane Angle|Line to Plane Angle]]
+  - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Line" class="tag-link">Line</a> to Line Angle|Line to Line Angle]]
 
-  - [[90 Math/03 Vectors/3. Vectors - 3D.md<a href="tags/Plane" class="tag-link">Plane</a> to Plane Angle|Plane to Plane Angle]]
+  - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Line" class="tag-link">Line</a> to Plane Angle|Line to Plane Angle]]
+
+  - [[90 Math/03 Vectors/3. Vectors - 3D Vectors, Lines, Planes.md<a href="tags/Plane" class="tag-link">Plane</a> to Plane Angle|Plane to Plane Angle]]
 
 ### [[4. Barycentric Coordinates|4. Barycentric Coordinates]]
 
@@ -341,7 +343,7 @@ published: 2026-01-24T09:57:45.710+08:00
 
   - [[90 Math/04 Matrix/2. Matrix and Linear Transformation.md<a href="tags/Others" class="tag-link">Others</a>|Others]]
 
-    - [[3. Vectors - 3D<a href="tags/Cross" class="tag-link">Cross</a> product|[90 Math/04 Matrix/2. Matrix and Linear Transformation.md<a href="tags/3" class="tag-link">3</a> Vectors - 3D Cross product Cross product as Matrix Multiplication|[Cross product]] as Matrix Multiplication]]
+    - [[3. Vectors - 3D Vectors, Lines, Planes<a href="tags/Cross" class="tag-link">Cross</a> product|[90 Math/04 Matrix/2. Matrix and Linear Transformation.md<a href="tags/3" class="tag-link">3</a> Vectors - 3D Vectors Lines Planes Cross product Cross product as Matrix Multiplication|[Cross product]] as Matrix Multiplication]]
 
 - [[90 Math/04 Matrix/2. Matrix and Linear Transformation.md<a href="tags/Matrix" class="tag-link">Matrix</a> Inverse|Matrix Inverse]]
 
@@ -407,6 +409,17 @@ published: 2026-01-24T09:57:45.710+08:00
 - [[90 Math/04 Matrix/5. Homogeneous Coordinates.md<a href="tags/Definition" class="tag-link">Definition</a>|Definition]]
 
   - [[90 Math/04 Matrix/5. Homogeneous Coordinates.md<a href="tags/Splitting" class="tag-link">Splitting</a> the matrix|Splitting the matrix]]
+- [[90 Math/04 Matrix/5. Homogeneous Coordinates.md<a href="tags/Uses" class="tag-link">Uses</a>|Uses]]
+
+  - [[90 Math/04 Matrix/5. Homogeneous Coordinates.md<a href="tags/Transformation" class="tag-link">Transformation</a>|Transformation]]
+
+  - [[90 Math/04 Matrix/5. Homogeneous Coordinates.md<a href="tags/Perspective" class="tag-link">Perspective</a> transformation|Perspective transformation]]
+
+## s
+
+### [[Find Rotation axis angles from 2 vectors|Find Rotation axis angles from 2 vectors]]
+
+- [[90 Math/04 Matrix/Tips/Find Rotation axis angles from 2 vectors.md<a href="tags/Problem" class="tag-link">Problem</a>|Problem]]
 
 ## Calculus
 
@@ -633,6 +646,18 @@ published: 2026-01-24T09:57:45.710+08:00
   - [[90 Math/05 Calculus/08 Finding Min, Max and Curvature of graphs.md<a href="tags/Second" class="tag-link">Second</a> Derivation|Second Derivation]]
 
 ### [[09 Curvature of graph|09 Curvature of graph]]
+
+## metry
+
+### [[Methods of calculating area of triangles|Methods of calculating area of triangles]]
+
+- [[90 Math/99 Others/Geometry/Methods of calculating area of triangles.md<a href="tags/Basic" class="tag-link">Basic</a>|Basic]]
+
+- [[90 Math/99 Others/Geometry/Methods of calculating area of triangles.md<a href="tags/Trigonometry" class="tag-link">Trigonometry</a>|Trigonometry]]
+
+- [[90 Math/99 Others/Geometry/Methods of calculating area of triangles.md<a href="tags/Vectors" class="tag-link">Vectors</a>|Vectors]]
+
+- [[90 Math/99 Others/Geometry/Methods of calculating area of triangles.md<a href="tags/Matrix" class="tag-link">Matrix</a>|Matrix]]
 
 ## erences
 

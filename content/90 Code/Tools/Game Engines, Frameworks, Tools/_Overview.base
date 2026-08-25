@@ -1,0 +1,33 @@
+filters:
+  and:
+    - file.inFolder("90 Code/Tools/Game Engines, Frameworks, Tools")
+    - file.path != this.file.path
+formulas:
+  Parent Folder: file.folder.split('/')[-1]
+  GitHub Link: link(note["links/github"], "GitHub")
+properties:
+  note.game/is-ecs-and-data-oriented:
+    displayName: Is ECS & Data-oriented
+  note.game/lang-core:
+    displayName: Core Language
+  note.game/lang-scripting:
+    displayName: Scripting Language
+  note.game/graphics-api:
+    displayName: Graphics API
+  note.game/core-lang:
+    displayName: Core Language
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: formula.Parent Folder
+      direction: ASC
+    order:
+      - file.name
+      - game/lang-core
+      - game/lang-scripting
+      - game/graphics-api
+      - game/is-ecs-and-data-oriented
+      - formula.GitHub Link
+    columnSize:
+      file.name: 176

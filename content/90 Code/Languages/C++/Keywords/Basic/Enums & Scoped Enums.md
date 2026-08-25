@@ -1,14 +1,11 @@
 ---
 publish: true
 aliases:
-  - enum class
-  - enum struct
-created: 2026-04-01T22:01:00.350+08:00
-modified: 2026-05-31T23:06:40.043+08:00
-published: 2026-05-31T23:06:40.043+08:00
+  - Enum class
+  - Enum struct
 ---
 
-## Syntax - C enums
+## Syntax - C Enums
 
 ```cpp
 enum Suit {
@@ -32,14 +29,15 @@ int suit = CLUB;
 
 ```
 
+Internal type of enum - `int`
+
 > [!NOTE] Implicit conversions between `int` $\iff$ `enum`
 > Normal enums have _no type safety_! Dangerous if not intended to convert to integral types.
 
 ## Syntax - Scoped Enums (C++)
 
 Why use this? - Has more type safety as there's no implicit conversions between `int` and `enum`
-If you want to convert, it's allowed but requires `static_cast`.
-#todo
+If you want to convert, it's allowed but requires you to explicitly use `static_cast`.
 
 ```cpp
 ```
@@ -47,7 +45,7 @@ If you want to convert, it's allowed but requires `static_cast`.
 ### Overloading operators
 
 ```cpp
-enum Week { Mon = 1, Tue, Wed, Thu, Fri, Sat, Sun };
+enum class Week { Mon = 1, Tue, Wed, Thu, Fri, Sat, Sun };
 
 // Prefix
 Week& operator++(Week& w) {

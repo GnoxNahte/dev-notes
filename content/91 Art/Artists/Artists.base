@@ -1,0 +1,42 @@
+filters:
+  and:
+    - file.inFolder(this.file.folder) && this.file != file
+formulas:
+  Parent Folder: file.path.split('/')[-2]
+  Discord: link(note["people/contact/discord"], "Discord")
+  YouTube: link(note["people/contact/youtube"], note["people/contact/youtube"].split('/')[-1])
+  Rates Source: note["people/artist/rates/source"].map(link(value, if(value.contains("discord"), "Discord", "Website")))
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: formula.Parent Folder
+      direction: ASC
+    order:
+      - file.name
+      - people/artist/rate
+      - people/portfolio
+      - people/platform
+      - people/contact/email
+      - formula.Discord
+      - formula.YouTube
+      - formula.Rates Source
+    rowHeight: medium
+  - type: table
+    name: Commission
+    filters:
+      and:
+        - '!note["people/artist/rate"].isEmpty()'
+    groupBy:
+      property: formula.Parent Folder
+      direction: ASC
+    order:
+      - file.name
+      - people/artist/rate
+      - people/portfolio
+      - people/platform
+      - people/contact/email
+      - formula.Discord
+      - formula.YouTube
+      - formula.Rates Source
+    rowHeight: medium

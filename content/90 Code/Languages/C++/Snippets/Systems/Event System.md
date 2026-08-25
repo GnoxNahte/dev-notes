@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-02-28T15:01:45.754+08:00
-modified: 2026-03-01T12:39:08.974+08:00
-published: 2026-03-01T12:39:08.974+08:00
+created: 2026-02-28T07:01:45.754Z
+modified: 2026-08-18T09:23:55.017Z
+published: 2026-08-18T09:23:55.017Z
 ---
 
 ```cpp
@@ -16,7 +16,7 @@ class EventSystem
 {
 public:
 	template<typename T>
-	static EventId Subscribe(std::function<void(const T&)> callback)
+	[[nodiscard]] static EventId Subscribe(std::function<void(const T&)> callback)
 	{
 		EventId id = nextId++;
 		auto& listeners = GetListeners<T>();
@@ -60,5 +60,6 @@ private:
 
 To improve:
 
+- ==IMPT== - Protect when subscribed functions in `Trigger` re-trigger the same event again. Also what if `Subscribe`/`Unsubscribed` is called? Need some queue?
 - Use `vector` instead of `unordered_map`? Store `EventId` and `function` in a struct for faster iterating, esp for very few listener count.
 - Return a `EventHandle` that automatically handles unsubscribing instead?

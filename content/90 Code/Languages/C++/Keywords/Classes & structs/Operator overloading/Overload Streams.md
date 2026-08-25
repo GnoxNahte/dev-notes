@@ -3,9 +3,9 @@ publish: true
 aliases:
   - Overload bitshift operators
   - Overload bit-shift operators
-created: 2026-06-01T10:54:31.594+08:00
-modified: 2026-06-01T10:56:34.854+08:00
-published: 2026-06-01T10:56:34.854+08:00
+created: 2026-06-01T02:54:31.594Z
+modified: 2026-06-01T02:56:34.854Z
+published: 2026-06-01T02:56:34.854Z
 tags:
   - todo
 code/operator:

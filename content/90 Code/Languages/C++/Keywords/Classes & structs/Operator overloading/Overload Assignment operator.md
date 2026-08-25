@@ -1,5 +1,8 @@
 ---
 publish: true
+created: 2026-06-11T08:05:14.788Z
+modified: 2026-08-02T07:51:47.973Z
+published: 2026-08-02T07:51:47.973Z
 tags:
   - todo
 ---

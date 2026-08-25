@@ -6,9 +6,9 @@ aliases:
   - Signed Magnitude
   - Integers represented in Binary
   - Int in Binary
-created: 2026-01-04T15:30:57.603+08:00
-modified: 2026-01-04T16:01:31.693+08:00
-published: 2026-01-04T16:01:31.693+08:00
+created: 2026-01-04T07:30:57.603Z
+modified: 2026-01-04T08:01:31.693Z
+published: 2026-01-04T08:01:31.693Z
 ---
 
 ## Overview

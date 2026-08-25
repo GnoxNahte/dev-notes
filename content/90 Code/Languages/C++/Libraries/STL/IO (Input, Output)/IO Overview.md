@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - C++ Input Output
-created: 2026-05-09T10:38:14.316+08:00
-modified: 2026-06-01T10:52:00.656+08:00
-published: 2026-06-01T10:52:00.656+08:00
+created: 2026-05-09T02:38:14.316Z
+modified: 2026-06-01T02:52:00.656Z
+published: 2026-06-01T02:52:00.656Z
 tags:
   - todo
 ---

@@ -1,11 +1,17 @@
 ---
 publish: true
-created: 2026-06-06T16:06:55.472+08:00
-modified: 2026-06-06T17:43:39.065+08:00
-published: 2026-06-06T17:43:39.065+08:00
+created: 2026-06-06T08:06:55.472Z
+modified: 2026-06-24T12:34:15.728Z
+published: 2026-06-24T12:34:15.728Z
 tags:
   - todo
 ---
+
+## Digital Differential Analyzer (DDA) Raycasting
+
+Links:
+
+- YouTube - [Super Fast Ray Casting in Tiled Worlds using DDA](https://www.youtube.com/watch?v=NbSee-XM7WA) by [javidx9](https://www.youtube.com/@javidx9)
 
 ## Amanatides and Woo algorithm
 

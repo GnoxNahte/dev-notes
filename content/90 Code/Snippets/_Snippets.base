@@ -1,5 +1,5 @@
 formulas:
-  Language: if(file.path.contains("Languages"), file.path.split('/')[2], "Others")
+  Language: if(file.path.contains("Languages"), file.path.split('/')[2], "Any Language")
 views:
   - type: table
     name: Table
@@ -19,3 +19,5 @@ views:
         direction: DESC
       - property: file.name
         direction: DESC
+    columnSize:
+      file.ext: 41

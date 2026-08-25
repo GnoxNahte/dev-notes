@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-01-04T15:30:57.885+08:00
-modified: 2026-01-21T21:31:10.414+08:00
-published: 2026-01-21T21:31:10.414+08:00
+created: 2026-01-04T07:30:57.885Z
+modified: 2026-01-21T13:31:10.414Z
+published: 2026-01-21T13:31:10.414Z
 math-level: 1 - Secondary School
 ---
 

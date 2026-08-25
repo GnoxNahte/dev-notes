@@ -1,9 +1,12 @@
 ---
-math-level: 1 - Secondary School
 publish: true
 aliases:
   - quadratic equation
   - b^2-4ac
+created: 2026-04-01T14:01:00.406Z
+modified: 2026-06-30T10:34:38.831Z
+published: 2026-06-30T10:34:38.831Z
+math-level: 1 - Secondary School
 ---
 
 ## Quadratic Equation/Factorisation

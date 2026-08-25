@@ -1,9 +1,9 @@
 ---
 publish: true
 description: Resource Acquisition Is Initialization
-created: 2026-05-16T10:14:12.436+08:00
-modified: 2026-06-11T18:23:25.078+08:00
-published: 2026-06-11T18:23:25.078+08:00
+created: 2026-05-16T02:14:12.436Z
+modified: 2026-06-11T10:23:25.078Z
+published: 2026-06-11T10:23:25.078Z
 tags:
   - todo
 ---

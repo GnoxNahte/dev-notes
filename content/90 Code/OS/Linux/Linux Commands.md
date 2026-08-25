@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-01-04T15:30:57.794+08:00
-modified: 2026-03-30T21:27:48.697+08:00
-published: 2026-03-30T21:27:48.697+08:00
+created: 2026-01-04T07:30:57.794Z
+modified: 2026-03-30T13:27:48.697Z
+published: 2026-03-30T13:27:48.697Z
 links: https://www.digitalocean.com/community/tutorials/linux-commands
 related-notes:
   - "[[Windows Commands]]"

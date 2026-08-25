@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-04-01T22:01:00.360+08:00
-modified: 2026-05-17T16:15:56.033+08:00
-published: 2026-05-17T16:15:56.033+08:00
+created: 2026-04-01T14:01:00.360Z
+modified: 2026-06-23T04:23:15.863Z
+published: 2026-06-23T04:23:15.863Z
 ---
 
 ## Notes
@@ -52,3 +52,4 @@ class Array {
 Links:
 
 - [Back to Basics: Templates in C++](https://www.youtube.com/watch?v=HqsEHG0QJXU)
+- [cppinsights.io](https://cppinsights.io/) - Useful to see what code the compiler generates

@@ -2,6 +2,9 @@
 publish: true
 aliases:
   - Stack & Heap
+created: 2026-01-04T07:30:57.665Z
+modified: 2026-08-04T00:40:28.184Z
+published: 2026-08-04T00:40:28.184Z
 ---
 
 Link:

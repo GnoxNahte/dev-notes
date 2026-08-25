@@ -1,9 +1,12 @@
 ---
 publish: true
-tags:
-  - todo
 aliases:
   - std::move()
+created: 2026-06-25T07:09:46.096Z
+modified: 2026-07-14T14:30:47.353Z
+published: 2026-07-14T14:30:47.353Z
+tags:
+  - todo
 ---
 
 ## Overview
@@ -48,7 +51,7 @@ template <typename T>
 >
 > Why?
 >
-> - Tt'll instantiate a `move<T&>` function,
+> - It'll instantiate a `move<T&>` function,
 > - Then `return static_cast<T& &&>(_Arg)`
 > - Which becomes `return static_cast<T&>(_Arg)`
 > - So it'll return a lvalue reference which becomes a copy contruction
@@ -61,7 +64,7 @@ Usage and explanation of the implementation:
 TLDR:
 
 - Takes the parameter
-- Remove any references to prevent [[Reference Collapsing]]
+- Remove any references to using [[Reference Collapsing]]
 - `static_cast` to a rvalue reference
 - return that rvalue reference
 

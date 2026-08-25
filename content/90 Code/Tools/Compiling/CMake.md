@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-05-16T10:14:12.461+08:00
-modified: 2026-05-21T21:55:50.516+08:00
-published: 2026-05-21T21:55:50.516+08:00
+created: 2026-07-18T02:37:24.100Z
+modified: 2026-07-18T04:25:07.262Z
+published: 2026-07-18T04:25:07.262Z
 tags:
   - todo
 ---
@@ -14,6 +14,23 @@ Links:
 
 > [!TIP] If retrying doesn't work,
 > Try deleting `CMakeCache.txt` as a last resort. Maybe `cmake_install.cmake` too (but not sure for this)
+
+## To build
+
+Method 1:
+
+```sh
+# Build and put the output into a build folder
+cmake -B build 
+```
+
+Method 2:
+
+```sh
+mkdir build
+cd build
+cmake ..
+```
 
 ## Other links to check
 

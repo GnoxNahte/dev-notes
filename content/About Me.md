@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-06-18T16:50:43.406+08:00
-modified: 2026-06-18T18:29:10.655+08:00
-published: 2026-06-18T18:29:10.655+08:00
+created: 2026-08-01T02:12:08.144Z
+modified: 2026-08-16T02:10:25.780Z
+published: 2026-08-16T02:10:25.780Z
 ---
 
 ## Overview
@@ -19,8 +19,8 @@ Experience in _Game Development_:
 Experience in _Web Development_ (self-taught so might not be professional quality yet):
 
 - HTML, CSS, JS/TS
-- [Astro](https://astro.build/) - mainly used to build my personal website
-- [Obsidian](https://obsidian.md/) plugins - (I haven't really updated in awhile though, busy with other things like school)
+- [Astro](https://astro.build/) - mainly used to build my [personal website](https://gnoxnahte.dev).
+- [Obsidian](https://obsidian.md/) plugins - (I haven't really updated them in awhile though, busy with school)
   - [Tab Panels](https://community.obsidian.md/plugins/tab-panels)
   - [Auto Embed](https://community.obsidian.md/plugins/auto-embed)
 

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - L'Hopital's Rule
-created: 2026-01-22T17:16:16.061+08:00
-modified: 2026-03-07T22:03:03.572+08:00
-published: 2026-03-07T22:03:03.572+08:00
+created: 2026-01-22T09:16:16.061Z
+modified: 2026-03-07T14:03:03.572Z
+published: 2026-03-07T14:03:03.572Z
 tags:
   - todo
 math-level: 3 - Uni Yr 1

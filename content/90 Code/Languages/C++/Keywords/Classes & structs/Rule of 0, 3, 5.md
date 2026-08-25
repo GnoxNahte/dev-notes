@@ -4,9 +4,9 @@ aliases:
   - Rule of Three
   - Rule of Five
   - Rule of Zero
-created: 2026-04-01T22:01:00.347+08:00
-modified: 2026-06-11T18:21:59.340+08:00
-published: 2026-06-11T18:21:59.340+08:00
+created: 2026-06-25T07:09:46.074Z
+modified: 2026-08-02T10:03:16.055Z
+published: 2026-08-02T10:03:16.055Z
 tags:
   - todo
 links/docs:
@@ -25,9 +25,9 @@ class Foo
 {
 	Foo(); // Default constructor
 	Foo(const Foo&); // Copy constructor
-	Foo& operator=(const Foo&); // Copy assignment
 	Foo(Foo&&) noexcept; // Move constructor
-	Foo& operator=(const Foo&&) noexcept; // Move assignment
+	Foo& operator=(const Foo&); // Copy assignment
+	Foo& operator=(Foo&&) noexcept; // Move assignment
 	~Foo(); // Destructor
 }
 ```

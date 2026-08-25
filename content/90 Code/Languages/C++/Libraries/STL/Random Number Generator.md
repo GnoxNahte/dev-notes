@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Random Number Generation
-created: 2026-05-24T16:10:46.528+08:00
-modified: 2026-05-24T16:26:08.933+08:00
-published: 2026-05-24T16:26:08.933+08:00
+created: 2026-05-24T08:10:46.528Z
+modified: 2026-05-24T08:26:08.933Z
+published: 2026-05-24T08:26:08.933Z
 tags:
   - todo
 ---
